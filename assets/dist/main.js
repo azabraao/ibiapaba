@@ -11,12 +11,13 @@ $(document).ready(() => {
     dots: true,
     appendDots: $('.header-slide__pagination'),
     autoplay: true,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          autoplay: false
+          autoplay: false,
+          adaptiveHeight: true,
         }
       }
     ]
