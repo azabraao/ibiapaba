@@ -23,10 +23,10 @@
         <span class="line"></span>
       </div>
       <div class="menu__links jsLinks">
-        <a href="/" class="menu__link">
+        <a href="/" class="menu__link active">
           <span>Home</span>
         </a>
-        <a href="/empresa" class="menu__link active">
+        <a href="/empresa" class="menu__link">
           <span>Empresa</span>
         </a>
         <a href="/produtos" class="menu__link">
