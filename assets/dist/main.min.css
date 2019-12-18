@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Rubik&display=swap");
 /*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */
 html,
 body,
@@ -84,11 +84,93 @@ html, body {
   .container {
     width: 65.625rem; } }
 
+.navbar {
+  height: 3.75rem; }
+  .navbar .navbar__inside {
+    padding: 0.625rem;
+    display: flex;
+    justify-content: space-between;
+    height: 100%; }
+    .navbar .navbar__inside .navbar__logo img {
+      height: 49px;
+      width: 48px; }
+    .navbar .navbar__inside .menu .menu__hamburguer {
+      height: 100%;
+      width: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      cursor: pointer; }
+      .navbar .navbar__inside .menu .menu__hamburguer .line {
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #0A5EBC; }
+    .navbar .navbar__inside .menu .menu__links {
+      display: none; }
+      .navbar .navbar__inside .menu .menu__links .menu__link {
+        padding: 0.625rem 1.25rem;
+        text-align: right;
+        text-decoration: none;
+        color: #484848;
+        font-family: Montserrat, sans-serif; }
+      .navbar .navbar__inside .menu .menu__links .menu__link.active {
+        background: #0A5EBC;
+        color: #fff; }
+    .navbar .navbar__inside .menu .menu__links.active {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      position: absolute;
+      right: 0;
+      left: 0;
+      padding-top: 1.25rem; }
+
+@media only screen and (min-width: 48rem) {
+  .navbar {
+    height: 103px; }
+    .navbar .navbar__inside {
+      padding: 0 0.625rem;
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      max-width: 65.625rem;
+      margin: 0 auto; }
+      .navbar .navbar__inside .navbar__logo {
+        padding: 0.625rem 0; }
+        .navbar .navbar__inside .navbar__logo img {
+          width: 88px;
+          height: 90.64px; }
+      .navbar .navbar__inside .menu {
+        height: 100%; }
+        .navbar .navbar__inside .menu .menu__hamburguer {
+          display: none; }
+        .navbar .navbar__inside .menu .menu__links,
+        .navbar .navbar__inside .menu .menu__links.active {
+          display: flex;
+          flex-direction: row;
+          max-width: 56.25rem;
+          height: inherit;
+          width: auto;
+          position: relative;
+          right: auto;
+          left: auto;
+          padding: unset; }
+          .navbar .navbar__inside .menu .menu__links .menu__link:hover,
+          .navbar .navbar__inside .menu .menu__links.active .menu__link:hover {
+            background: #1E89FF;
+            color: #fff; }
+          .navbar .navbar__inside .menu .menu__links .menu__link,
+          .navbar .navbar__inside .menu .menu__links.active .menu__link {
+            height: inherit;
+            display: flex;
+            align-items: center; } }
+
 .bg-primary {
-  background-color: ""; }
+  background-color: #0A5EBC; }
 
 .bg-primary-light {
-  background-color: ""; }
+  background-color: #1E89FF; }
 
 .bg-primary-lighter {
   background-color: ""; }
@@ -115,16 +197,16 @@ html, body {
   background-color: ""; }
 
 .bg-dark {
-  background-color: ""; }
+  background-color: #1C1B1B; }
 
 .bg-light {
   background-color: ""; }
 
 .bg-black {
-  background-color: ""; }
+  background-color: #000; }
 
 .bg-white {
-  background-color: ""; }
+  background-color: #fff; }
 
 .bg-grey {
   background-color: ""; }
@@ -133,7 +215,7 @@ html, body {
   background-color: ""; }
 
 .bg-grey-dark {
-  background-color: ""; }
+  background-color: #484848; }
 
 .bg-warning {
   background-color: ""; }
@@ -160,10 +242,10 @@ html, body {
   background-color: ""; }
 
 .color-primary {
-  color: ""; }
+  color: #0A5EBC; }
 
 .color-primary-light {
-  color: ""; }
+  color: #1E89FF; }
 
 .color-primary-lighter {
   color: ""; }
@@ -190,16 +272,16 @@ html, body {
   color: ""; }
 
 .color-dark {
-  color: ""; }
+  color: #1C1B1B; }
 
 .color-light {
   color: ""; }
 
 .color-black {
-  color: ""; }
+  color: #000; }
 
 .color-white {
-  color: ""; }
+  color: #fff; }
 
 .color-grey {
   color: ""; }
@@ -208,7 +290,7 @@ html, body {
   color: ""; }
 
 .color-grey-dark {
-  color: ""; }
+  color: #484848; }
 
 .color-warning {
   color: ""; }
@@ -235,10 +317,10 @@ html, body {
   color: ""; }
 
 .font-primary {
-  font-family: "Nunito", "Open Sans", sans-serif; }
+  font-family: Rubik, Montserrat sans-serif; }
 
 .font-secondary {
-  font-family: "Open Sans", sans-serif; }
+  font-family: Montserrat, sans-serif; }
 
 .text-bolder {
   font-weight: bolder; }
