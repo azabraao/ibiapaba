@@ -1,9 +1,4 @@
 $(document).ready(() => {
-  $('.jsHamburguer').on('click', () => {
-    $('.jsLinks').toggleClass('active');
-  })
-});
-$(document).ready(() => {
   $('.jsHomeHeaderSlide').slick({
     prevArrow: $('.jsHomeHeaderSlidePrevArrow'),
     nextArrow: $('.jsHomeHeaderSlideNextArrow'),
