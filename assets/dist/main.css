@@ -107,7 +107,8 @@ html, body {
         width: 100%;
         background-color: #0A5EBC; }
     .navbar .navbar__inside .menu .menu__links {
-      display: none; }
+      display: none;
+      background: #fff; }
       .navbar .navbar__inside .menu .menu__links .menu__link {
         padding: 0.625rem 1.25rem;
         text-align: right;

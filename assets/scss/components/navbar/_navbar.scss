@@ -33,6 +33,7 @@
       
       .menu__links {
         display: none;
+        background: $white;
         
         .menu__link {
           padding: ($grid-1-mobile / 2) $grid-1-mobile;
