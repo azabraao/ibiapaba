@@ -153,6 +153,134 @@
   </div>
 </section>
 
+<section class="section linha-producao no-padding-bottom">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__title">Linha de produção</div>
+      <div class="section__subtitle">Veja nossos produtos</div>
+    </div>
+    <div class="section__body">
+      <div class="linha-producao-slide">
+        <div class="linha-producao-slide__items jsHomeLinhaProdSlide">
+          <div class="linha-producao-slide__item">
+            <div class="linha-producao-slide__item-image">
+              <div class="linha-producao-slide__controls">
+                <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideLeft">
+                  <img 
+                  src="./assets/img/icon-black-arrow-left.png" 
+                  alt="icone"/>
+                </span>
+                <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideRight">
+                  <img 
+                  src="./assets/img/icon-black-arrow-right.png" 
+                  alt="icone"/>
+                </span>
+              </div>
+              <img src="./assets/img/extrusora-750x525.png" alt="Extrusora" />
+            </div>
+            <div class="linha-producao-slide__item-content">
+              <h3>Extrusora</h3>
+              <p>
+                Equipamento utilizado para a fabricação 
+                de peças de plásticos ou outros materiais 
+                através de um processo de extrusão.
+              </p>
+              <a href="/produtos?tab=extrusora#produtos" class="button button-small button-dark outlined">
+                Saiba +
+              </a>
+            </div>
+          </div>
+          <div class="linha-producao-slide__item">
+            <div class="linha-producao-slide__item-image">
+              <div class="linha-producao-slide__controls">
+                <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideLeft">
+                  <img 
+                  src="./assets/img/icon-white-arrow-left.png" 
+                  alt="icone"/>
+                </span>
+                <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideRight">
+                  <img 
+                  src="./assets/img/icon-white-arrow-right.png" 
+                  alt="icone"/>
+                </span>
+              </div>
+              <img src="./assets/img/trancadeira-750x525.png" alt="Extrusora" />
+            </div>
+            <div class="linha-producao-slide__item-content dark">
+              <h3>Trançadeira</h3>
+              <p>
+                Máquina com a capacidade de desenvolver 
+                tranças sobrepostas em mangueiras de 
+                polímeros ou elastômeros.
+              </p>
+              <a href="/produtos?tab=trancadeira#produtos" 
+              class="button button-small button-primary outlined">
+                Saiba +
+              </a>
+            </div>
+          </div>
+          <div class="linha-producao-slide__item">
+            <div class="linha-producao-slide__item-image">
+              <div class="linha-producao-slide__controls">
+                <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideLeft">
+                  <img 
+                  src="./assets/img/icon-white-arrow-left.png" 
+                  alt="icone"/>
+                </span>
+                <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideRight">
+                  <img 
+                  src="./assets/img/icon-white-arrow-right.png" 
+                  alt="icone"/>
+                </span>
+              </div>
+              <img src="./assets/img/ferramental-312x336.png" alt="Extrusora" />
+            </div>
+            <div class="linha-producao-slide__item-content">
+              <h3>Ferramental</h3>
+              <p>
+                Cabeçote, Pino, Matriz e Túnel de Aquecimento
+              </p>
+              <a href="/produtos?tab=ferramental#produtos" 
+              class="button button-small button-dark outlined">
+                Saiba +
+              </a>
+            </div>
+          </div>
+          <div class="linha-producao-slide__item">
+            <div class="linha-producao-slide__item-image">
+              <div class="linha-producao-slide__controls">
+                <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideLeft">
+                  <img 
+                  src="./assets/img/icon-white-arrow-left.png" 
+                  alt="icone"/>
+                </span>
+                <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideRight">
+                  <img 
+                  src="./assets/img/icon-white-arrow-right.png" 
+                  alt="icone"/>
+                </span>
+              </div>
+              <img src="./assets/img/puxador-750x525.png" alt="Extrusora" />
+            </div>
+            <div class="linha-producao-slide__item-content">
+              <h3>Puxador</h3>
+              <p>
+                Puxador tipo catepilar dois braços,
+                com correias transportadoras (com guia 
+                central em canal tipo B) para 
+                mangueiras ou perfis.
+              </p>
+              <a href="/produtos?tab=puxador#produtos" 
+              class="button button-small button-dark outlined">
+                Saiba +
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <?php
   include('./components/global_scripts.php');
 ?>

@@ -33,6 +33,22 @@
   background: $primary;
 }
 
+.button-dark {
+  background: $dark;
+  color: $white;
+}
+
+.button-dark.outlined:hover {
+  background: $dark;
+  color: $white;
+}
+
+.button-dark.outlined {
+  color: $dark;
+  background: transparent;
+  border: 1px solid $dark;
+}
+
 .button-primary.outlined {
   color: $primary;
   background: transparent;

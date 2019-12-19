@@ -17,4 +17,10 @@ $(document).ready(() => {
       }
     ]
   });
+
+  $('.jsHomeLinhaProdSlide').slick({
+    prevArrow: $('.jsHomeLinhaProducaoSlideLeft'),
+    nextArrow: $('.jsHomeLinhaProducaoSlideRight'),
+    autoplay: true
+  });
 });
