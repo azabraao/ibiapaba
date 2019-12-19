@@ -56,8 +56,9 @@
         position: absolute;
         right: 0;
         left: 0;
-        padding-top: $grid-1-mobile;
-        
+        padding-top: $grid-1-mobile;    
+        z-index: 1;
+        top: 3.75rem;
       }
     }
   }
@@ -101,6 +102,7 @@
           position: relative;
           right: auto;
           left: auto;
+          top: auto;
           padding: unset;
 
           .menu__link:hover {
