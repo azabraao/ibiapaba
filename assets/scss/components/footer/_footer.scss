@@ -1,0 +1,122 @@
+.footer {
+  
+  .footer__top {
+    background: $black;
+    padding: $half-grid-desktop 0;
+    
+    .footer__columns {
+      display: flex;
+      flex-wrap: wrap;
+      
+      .footer__column:not(:last-child) {
+        margin-right: $half-grid-desktop;
+      }
+      
+      .footer__column {
+        margin-bottom: $grid-1-mobile;
+        
+        .footer__column-title {
+          margin-bottom: $half-grid-mobile;
+          
+          h4 {
+            color: $white;
+            font-size: $title-3;
+            font-family: $font-secondary;
+          }
+        }
+        
+        .footer__column-links {
+          .footer__column-link {
+            margin-bottom: $half-grid-mobile;
+            
+            a {
+              text-decoration: none;
+              font-family: $font-primary;
+              color: $grey;
+              font-size: $content-normal;
+            }
+          }
+        }
+        
+        .footer__column-social {
+          .footer__column-social-item {
+            img {
+              margin-right: $grid-1-mobile;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .footer__bottom {
+    padding: $grid-1-mobile;
+    
+    .footer__inside {
+      display: flex;
+      flex-direction: column;
+      
+      .footer__bottom-space {
+        
+      }
+      
+      .footer__bottom-copy {
+        text-align: center;
+        
+        p {
+          font-family: $font-secondary;
+          font-size: $content-normal;
+        }
+      }
+      
+      .footer__bottom-logo {
+        display: flex;
+        justify-content: center;
+        padding: $half-grid-mobile;
+        
+        img {
+          
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $mobile-up) {
+  .footer {
+    
+    .footer__top {
+      
+      .footer__columns {
+        justify-content: space-between;
+      }
+    }
+    
+    .footer__bottom {
+      padding: 0; 
+      
+      .footer__inside {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        .footer__bottom-copy {
+          text-align: center;
+          
+          p {
+            font-family: $font-secondary;
+            font-size: $content-normal;
+          }
+        }
+        
+        .footer__bottom-logo {
+          
+          img {
+            width: 50px;
+            height: 50px;
+          }
+        }
+      }
+    }
+  }
+}

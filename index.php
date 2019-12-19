@@ -301,6 +301,12 @@
     allowfullscreen=""></iframe>
   </div>
 </section>
+
+
+<?php
+  include('./components/footer.php');
+?>
+
 <?php
   include('./components/global_scripts.php');
 ?>
