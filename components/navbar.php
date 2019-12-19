@@ -1,3 +1,8 @@
+
+<?php
+  $url = $_SERVER["REQUEST_URI"];
+?>
+
 <nav class="navbar">
   <div class="navbar__inside">
     <div class="navbar__logo">
