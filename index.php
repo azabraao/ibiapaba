@@ -104,7 +104,7 @@
   </div>
 </header>
 
-<div class="section bg-light">
+<section class="section bg-light">
   <div class="container">
     <div class="section__header">
       <div class="section__title">
@@ -151,7 +151,7 @@
       </a>
     </div>
   </div>
-</div>
+</section>
 
 <?php
   include('./components/global_scripts.php');
