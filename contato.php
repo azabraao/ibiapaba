@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./assets/dist/main.min.css?cache=1">
-  <title>Document</title>
-</head>
+<?php
+  include('./components/global_head.php');
+?>
 <body>
   
 <?php 
   include('./components/navbar.php');
 ?>
 
+
+<?php
+  include('./components/global_scripts.php');
+?>
 </body>
 </html>
