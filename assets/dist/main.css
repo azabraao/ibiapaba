@@ -72,6 +72,37 @@ th {
 html, body {
   scroll-behavior: smooth; }
 
+.section {
+  padding: 4.6875rem 0; }
+  .section .section__header {
+    text-align: center; }
+    .section .section__header .section__title:after {
+      position: absolute;
+      width: 80px;
+      height: 7.02px;
+      background: #1C1B1B;
+      margin: 0 auto;
+      content: '';
+      bottom: -1.25rem;
+      right: 0;
+      left: 0; }
+    .section .section__header .section__title {
+      position: relative;
+      font-family: Montserrat, sans-serif;
+      font-size: 3rem;
+      margin-bottom: 2.34375rem; }
+    .section .section__header .section__subtitle {
+      font-family: Rubik, Montserrat sans-serif;
+      font-size: 1.25rem;
+      margin-bottom: 2.34375rem; }
+  .section .section__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.34375rem; }
+
+.section.no-padding-bottom {
+  padding-bottom: 0; }
+
 .container {
   width: 17.5rem;
   margin: 0 auto; }
@@ -259,6 +290,39 @@ html, body {
       width: 50px;
       height: 5px; } }
 
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .boxes .box {
+    margin-bottom: 1.25rem; }
+
+@media only screen and (min-width: 48rem) {
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0; }
+    .boxes .box {
+      margin: 2.34375rem; } }
+
+.box {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  min-height: 376.27px;
+  max-width: 375px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.34375rem; }
+  .box .box__header {
+    margin-bottom: 2.34375rem; }
+  .box .box__body {
+    text-align: center;
+    font-family: Rubik, Montserrat sans-serif;
+    font-size: 1rem; }
+
 .button {
   border: none;
   width: 14.0625rem;
@@ -276,6 +340,10 @@ html, body {
 
 .button-small {
   width: 9.375rem; }
+
+.button-medium {
+  width: 200px;
+  height: 50.2px; }
 
 .button-primary {
   background: #0A5EBC;
@@ -324,7 +392,7 @@ html, body {
   background-color: #1C1B1B; }
 
 .bg-light {
-  background-color: ""; }
+  background-color: #f5f5f5; }
 
 .bg-black {
   background-color: #000; }
@@ -399,7 +467,7 @@ html, body {
   color: #1C1B1B; }
 
 .color-light {
-  color: ""; }
+  color: #f5f5f5; }
 
 .color-black {
   color: #000; }

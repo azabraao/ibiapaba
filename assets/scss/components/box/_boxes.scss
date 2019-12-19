@@ -1,0 +1,23 @@
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .box {
+    margin-bottom: $grid-1-mobile;
+  }
+}
+
+@media only screen and (min-width: $mobile-up) {
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    
+    .box {
+      margin: $half-grid-desktop;
+    }
+  }
+}

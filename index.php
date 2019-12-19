@@ -104,7 +104,54 @@
   </div>
 </header>
 
-
+<div class="section bg-light">
+  <div class="container">
+    <div class="section__header">
+      <div class="section__title">
+        <h2>Sobre a Ibiapaba</h2>
+      </div>
+      <div class="section__subtitle">
+        <p>Conheça nossa história.</p>
+      </div>
+    </div>
+    <div class="section__body">
+      <div class="boxes flex space-between">
+        <div class="box">
+          <div class="box__header">
+            <img src="./assets/img/icon-tecnologia.png" alt="icone tecnologia">
+          </div>
+          <div class="box__body">
+            <div class="content text-center">
+              <p>
+                Desenvolvendo equipamentos
+                de alta tecnologia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box__header">
+            <img src="./assets/img/icon-valorizando.png" alt="icone">
+          </div>
+          <div class="box__body">
+            <div class="content text-center">
+              <p>
+                Há 20 anos trabalhando para
+                satisfazer empresas de
+                grande, médio e pequeno porte.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section__footer centered">
+      <a href="/empresa" class="button button-medium button-primary outlined">
+        Saiba +
+      </a>
+    </div>
+  </div>
+</div>
 
 <?php
   include('./components/global_scripts.php');

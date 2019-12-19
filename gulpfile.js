@@ -5,7 +5,7 @@ const image = require('gulp-image');
 sass.compiler = require('node-sass');
 var concat = require('gulp-concat');
  
-gulp.task('js', function() {
+gulp.task('js', async function() {
   return gulp.src('./assets/js/*.js')
     .pipe(concat('main.js'))
     .pipe(gulp.dest('./assets/dist/'));

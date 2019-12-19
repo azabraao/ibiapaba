@@ -1,0 +1,45 @@
+.section {
+  padding: $grid-1-desktop 0;
+  
+  .section__header {
+    text-align: center;
+    
+    .section__title:after {
+      position: absolute;
+      width: 80px;
+      height: 7.02px;
+      background: $dark;
+      margin: 0 auto;
+      content: '';
+      bottom: -$grid-1-mobile;
+      right: 0;
+      left: 0;
+    }
+    
+    .section__title {
+      position: relative;
+      font-family: $font-secondary;
+      font-size: $title-1;
+      margin-bottom: $half-grid-desktop;
+    }
+    .section__subtitle {
+      font-family: $font-primary;
+      font-size: $content-medium;
+      margin-bottom: $half-grid-desktop;
+    }
+  } 
+  
+  .section__body {
+    
+  }
+  
+  .section__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: $half-grid-desktop;
+  }
+}
+
+.section.no-padding-bottom {
+  padding-bottom: 0;
+}
