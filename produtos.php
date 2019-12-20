@@ -311,7 +311,73 @@ include('./components/global_head.php');
           </div>
         </div>
         <div class="tab__content jsProdutosTabContent <?php if($tab == "puxador") echo "active" ?>" data-tab="puxador">
-          puxador
+        <div class="gallery">
+            <div class="gallery__highlight">
+              <img src="./assets/img/puxador-825x750.png" class="jsGalleryHighLight"/>
+            </div>
+            <div class="gallery__list jsGalleryList">
+              <div class="gallery__list-item">
+                <img class="jsGalleryItem" src="./assets/img/puxador-375x225-2.png"/>
+              </div>
+              <div class="gallery__list-item">
+                <img class="jsGalleryItem" src="./assets/img/puxador-375x225-3.png"/>
+              </div>
+            </div>
+          </div>
+          <div class="features">
+            <div class="features__row">
+              <div class="features__item">
+                <div class="features__item-icon">
+                  <img src="./assets/img/icon-hand.png" alt="Ícone">
+                </div>
+                <div class="features__item-content">
+                  <p>
+                    Puxador tipo catepilar dois braços, com correias transportadoras 
+                    (com guia central em canal tipo B) para mangueiras ou perfis.
+                    A Aspiraladeira necessitará de dois puxadores independente da 
+                    situação.
+                  </p>
+                </div>
+              </div>
+              <div class="features__item">
+                <div class="features__item-icon">
+                  <img src="./assets/img/icon-puxador.png" alt="Ícone">
+                </div>
+                <div class="features__item-content">
+                  <p>
+                    Os nossos puxadores saem com um padrão de abertura para tubos até 
+                    2", podendo ser ajustado conforme a necessidade do cliente.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="features__row">
+              <div class="features__item">
+                <div class="features__item-icon">
+                  <img src="./assets/img/icon-speedometer.png" alt="Ícone">
+                </div>
+                <div class="features__item-content">
+                  <p>
+                   Esta Aspiraladeira tem a sua velocidade controlada por um inversor 
+                   de frequência, digital com ou sem potenciômetro, sua força é de 
+                   5cv. com uma rotação de 1.100 rpm, em dois motores de seis polos 
+                   cada.
+                  </p>
+                </div>
+              </div>
+              <div class="features__item">
+                <div class="features__item-icon">
+                  <img src="./assets/img/icon-corrente.png" alt="Ícone">
+                </div>
+                <div class="features__item-content">
+                  <p>
+                    O puxador é equipado com um motor de 1cv 1100 rpm e com um 
+                    inversor de frequência também de 1cv.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="tab__content jsProdutosTabContent <?php if($tab == "ferramental") echo "active" ?>" data-tab="ferramental">
           ferramental

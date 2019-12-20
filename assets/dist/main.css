@@ -460,12 +460,12 @@ html, body {
       margin-bottom: 0; }
     .gallery .gallery__list {
       flex-direction: column;
-      justify-content: space-between;
       width: 30%; }
       .gallery .gallery__list .gallery__list-item {
         height: 117px;
         width: unset;
         overflow: hidden;
+        margin-bottom: 1.25rem;
         cursor: pointer; } }
 
 @media only screen and (min-width: 75rem) {

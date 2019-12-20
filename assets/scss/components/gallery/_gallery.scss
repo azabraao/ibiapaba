@@ -37,14 +37,14 @@
     
     .gallery__list {
       flex-direction: column;
-      justify-content: space-between;
+      // justify-content: space-between;
       width: 30%;
       
       .gallery__list-item {
         height: 117px;
         width: unset;
         overflow: hidden;
-        // margin-bottom: $half-grid-mobile / 2;
+        margin-bottom: $grid-1-mobile;
         cursor: pointer;
       }
     }
