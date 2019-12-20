@@ -458,6 +458,34 @@ html, body {
   background: transparent;
   border: 1px solid #0A5EBC; }
 
+.content-columns {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 0; }
+  .content-columns .column.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .content-columns .column {
+    padding: 0.625rem;
+    width: 100%; }
+
+.content h5 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem; }
+
+.content p {
+  font-family: Rubik, Montserrat sans-serif;
+  font-size: 1rem; }
+
+@media only screen and (min-width: 48rem) {
+  .content-columns {
+    flex-direction: row; }
+    .content-columns .column {
+      width: 50%; } }
+
 .bg-primary {
   background-color: #0A5EBC; }
 
