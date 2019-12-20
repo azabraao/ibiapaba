@@ -410,6 +410,70 @@ html, body {
 .page-header.servicos {
   background-image: url(../img/page-title-bg-servicos.png); }
 
+.tabs .tabs__header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .tabs .tabs__header .tabs__item.active {
+    background: #0A5EBC;
+    color: #fff; }
+  .tabs .tabs__header .tabs__item {
+    transition: all 0.25s;
+    padding: 0.625rem 1.25rem;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    cursor: pointer; }
+
+.tabs .tabs__body .tab__content.active {
+  display: block; }
+
+.tabs .tabs__body .tab__content {
+  display: none; }
+
+.gallery {
+  padding: 1.25rem 0; }
+  .gallery .gallery__highlight {
+    width: 280px;
+    height: 258px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    margin-bottom: 1.25rem; }
+  .gallery .gallery__list {
+    display: flex;
+    flex-direction: row; }
+    .gallery .gallery__list .gallery__list-item {
+      height: 55.44px;
+      overflow: hidden;
+      width: calc(100% / 3); }
+
+@media only screen and (min-width: 48rem) {
+  .gallery {
+    padding: 4.6875rem 0;
+    display: flex; }
+    .gallery .gallery__highlight {
+      margin-right: 1.25rem;
+      width: 70%;
+      height: 414.9px;
+      margin-bottom: 0; }
+    .gallery .gallery__list {
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30%; }
+      .gallery .gallery__list .gallery__list-item {
+        height: 117px;
+        width: unset;
+        overflow: hidden;
+        cursor: pointer; } }
+
+@media only screen and (min-width: 75rem) {
+  .gallery .gallery__highlight {
+    height: 655px; }
+  .gallery .gallery__list .gallery__list-item {
+    height: 185.4px; } }
+
 .button {
   border: none;
   width: 14.0625rem;
