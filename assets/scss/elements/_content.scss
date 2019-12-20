@@ -16,7 +16,7 @@
 }
 
 .content {
-  
+  padding: $half-grid-mobile 0;
   h5 {
     font-family: $font-secondary;
     font-size: $content-medium;
@@ -24,6 +24,9 @@
     margin-bottom: $half-grid-mobile;
   }
 
+  p:not(:last-child) {
+    margin-bottom: $grid-1-mobile;
+  }
   p {
     font-family: $font-primary;
     font-size: $content-normal;

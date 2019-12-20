@@ -164,6 +164,14 @@ include('./components/global_head.php');
             </div>
           </div>
           <div class="features">
+            <div class="content">
+              <p>
+                Máquina com a capacidade de desenvolver tranças sobrepostas em mangueiras de polímeros ou elastômeros.
+              </p>
+              <p class="text-bold">
+                Onze motivos para adquirir nossa aspiraladeira:
+              </p>
+            </div>            
             <div class="features__row">
               <div class="features__item">
                 <div class="features__item-icon">
