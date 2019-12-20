@@ -730,3 +730,35 @@ html, body {
 .localizacao .localizacao__map {
   width: 100%;
   height: 570px; }
+
+.missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box:hover {
+    background: #0A5EBC; }
+    .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box:hover .missao-visao-valores__box-icon svg {
+      fill: #fff; }
+    .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box:hover .missao-visao-valores__box-title,
+    .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box:hover .missao-visao-valores__box-content {
+      color: #fff; }
+  .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box {
+    width: 18.75rem;
+    margin: 1.25rem;
+    padding: 1.25rem 2.5rem;
+    text-align: center;
+    transition: all 0.5s; }
+    .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box .missao-visao-valores__box-icon {
+      padding-bottom: 1.25rem; }
+    .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box .missao-visao-valores__box-title,
+    .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box .missao-visao-valores__box-content {
+      color: #000; }
+    .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box .missao-visao-valores__box-title {
+      margin-bottom: 1.25rem; }
+      .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box .missao-visao-valores__box-title h5 {
+        font-family: Montserrat, sans-serif;
+        font-size: 2.5rem; }
+    .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box .missao-visao-valores__box-content {
+      font-family: Montserrat, sans-serif;
+      font-size: 1rem; }
