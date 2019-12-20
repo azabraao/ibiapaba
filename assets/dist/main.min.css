@@ -745,8 +745,7 @@ html, body {
       color: #fff; }
   .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box {
     width: 18.75rem;
-    margin: 1.25rem;
-    padding: 1.25rem 2.5rem;
+    padding: 1.25rem;
     text-align: center;
     transition: all 0.5s; }
     .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box .missao-visao-valores__box-icon {
@@ -762,3 +761,8 @@ html, body {
     .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box .missao-visao-valores__box-content {
       font-family: Montserrat, sans-serif;
       font-size: 1rem; }
+
+@media only screen and (min-width: 48rem) {
+  .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box {
+    margin: 1.25rem;
+    padding: 1.25rem 2.5rem; } }

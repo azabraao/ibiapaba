@@ -23,8 +23,7 @@
 
       .missao-visao-valores__box {
         width: $grid-4-desktop;
-        margin: $grid-1-mobile;
-        padding: $grid-1-mobile $grid-2-mobile;
+        padding: $grid-1-mobile;
         text-align: center;
         transition: all $half-second;
 
@@ -56,6 +55,20 @@
           p {
 
           }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $mobile-up) {
+  .missao-visao-valores {
+    .missao-visao-valores__inside {
+      .missao-visao-valores__boxes {
+  
+        .missao-visao-valores__box {
+          margin: $grid-1-mobile;
+          padding: $grid-1-mobile $grid-2-mobile;
         }
       }
     }
