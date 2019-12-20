@@ -1,5 +1,12 @@
+<?php
+  if(!isset($_GET['tab'])) {
+    $tab = "extrusora";
+  } else {
+    $tab = $_GET['tab'];
+  }  
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <?php
 include('./components/global_head.php');
 ?>
@@ -22,29 +29,29 @@ include('./components/global_head.php');
   <section class="tabs section">
     <div class="container">
       <div class="tabs__header">
-        <div class="tabs__item jsProdutosTab active" data-related-tab="extrusora">
+        <div class="tabs__item jsProdutosTab  <?php if($tab == "extrusora") echo "active" ?>" data-related-tab="extrusora">
           <span>
             Extrusora
           </span>
         </div>
-        <div class="tabs__item jsProdutosTab" data-related-tab="trancadeira">
+        <div class="tabs__item jsProdutosTab  <?php if($tab == "trancadeira") echo "active" ?>" data-related-tab="trancadeira">
           <span>
             Trançadeira
           </span>
         </div>
-        <div class="tabs__item jsProdutosTab" data-related-tab="puxador">
+        <div class="tabs__item jsProdutosTab  <?php if($tab == "puxador") echo "active" ?>" data-related-tab="puxador">
           <span>
             Puxador
           </span>
         </div>
-        <div class="tabs__item jsProdutosTab" data-related-tab="ferramental">
+        <div class="tabs__item jsProdutosTab  <?php if($tab == "ferramental") echo "active" ?>" data-related-tab="ferramental">
           <span>
             Ferramental
           </span>
         </div>
       </div>
       <div class="tabs__body">
-        <div class="tab__content jsProdutosTabContent active" data-tab="extrusora">
+        <div class="tab__content jsProdutosTabContent <?php if($tab == "extrusora") echo "active" ?>" data-tab="extrusora">
           <div class="gallery">
             <div class="gallery__highlight">
               <img src="./assets/img/extrusora-825x750.png" class="jsGalleryHighLight"/>
@@ -139,7 +146,7 @@ include('./components/global_head.php');
             </div>
           </div>
         </div>
-        <div class="tab__content jsProdutosTabContent" data-tab="trancadeira">
+        <div class="tab__content jsProdutosTabContent <?php if($tab == "trancadeira") echo "active" ?>" data-tab="trancadeira">
           <div class="gallery">
             <div class="gallery__highlight">
               <img src="./assets/img/trancadeira-750x525.png" class="jsGalleryHighLight"/>
@@ -295,10 +302,10 @@ include('./components/global_head.php');
             </div>
           </div>
         </div>
-        <div class="tab__content jsProdutosTabContent" data-tab="puxador">
+        <div class="tab__content jsProdutosTabContent <?php if($tab == "puxador") echo "active" ?>" data-tab="puxador">
           puxador
         </div>
-        <div class="tab__content jsProdutosTabContent" data-tab="ferramental">
+        <div class="tab__content jsProdutosTabContent <?php if($tab == "ferramental") echo "active" ?>" data-tab="ferramental">
           ferramental
         </div>
       </div>
