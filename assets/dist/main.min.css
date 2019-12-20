@@ -382,6 +382,34 @@ html, body {
         width: 50px;
         height: 50px; } }
 
+.page-header {
+  padding: 4.6875rem 0;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .page-header .page-header__title {
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5rem;
+    color: #fff; }
+
+.page-header.empresa {
+  background-image: url(../img/page-title-bg-empresa.png); }
+
+.page-header.contato {
+  background-image: url(../img/page-title-bg-contato.png); }
+
+.page-header.historico {
+  background-image: url(../img/page-title-bg-historico.png); }
+
+.page-header.linha-produtos {
+  background-image: url(../img/page-title-bg-linha-produtos.png); }
+
+.page-header.mangueiras {
+  background-image: url(../img/page-title-bg-mangueiras.png); }
+
+.page-header.servicos {
+  background-image: url(../img/page-title-bg-servicos.png); }
+
 .button {
   border: none;
   width: 14.0625rem;
