@@ -4,12 +4,13 @@ $(document).ready(() => {
   function handleClick(e) {
     let clickedImage = e.target;
     let clickedImagePath = clickedImage.src;
-    let highlitedImage = document.querySelector('.jsGalleryHighLight');
+    let wrap = clickedImage.closest('.jsProdutosTabContent');
+    let highlitedImage = wrap.querySelector('.jsGalleryHighLight');
     let highlitedImagePath = highlitedImage.src;
     
     highlitedImage.src = clickedImagePath;
     clickedImage.parentElement.remove();
-    let galleryList = document.querySelector('.jsGalleryList');
+    let galleryList = wrap.querySelector('.jsGalleryList');
     let div = document.createElement('div');
     let img = document.createElement('img');
     div.classList.add('gallery__list-item');
