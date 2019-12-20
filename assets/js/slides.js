@@ -23,4 +23,26 @@ $(document).ready(() => {
     nextArrow: $('.jsHomeLinhaProducaoSlideRight'),
     autoplay: true
   });
+  
+  $('.jsEmpresaPartnersSlide').slick({
+    prevArrow: $('.jsEmpresaPartnersSlidePrev'),
+    nextArrow: $('.jsEmpresaPartnersSlideNext'),
+    autoplay: true,
+    slidesToShow: 5,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 420,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+
+  })
 });

@@ -62,7 +62,7 @@
   </div>
 </section>
   
-<section class="section missao-visao-valores">
+<section class="section missao-visao-valores no-padding-bottom">
   <div class="container">
     <div class="missao-visao-valores__inside">
       <div class="missao-visao-valores__boxes">
@@ -167,6 +167,55 @@
               Profissionalismo
             </p>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section partners">
+    <div class="container">
+      <div class="section__header">
+        <div class="section__title">
+          <h2>
+            Empresas parceiras
+          </h2>
+        </div>
+        <div class="section__subtitle">
+          <p>
+            Fale com um de nossos representantes.
+          </p>
+        </div>  
+      </div>    
+    </div>
+    <div class="section__body">
+      <div class="partners__slide">
+        <div class="container">
+          <div class="partners__slide-controls">
+            <span class="partners__slide-control jsEmpresaPartnersSlidePrev">
+              <img src="./assets/img/icon-black-arrow-left.png" alt="Icone de seta">
+            </span>
+            <span class="partners__slide-control jsEmpresaPartnersSlideNext">
+              <img src="./assets/img/icon-black-arrow-right.png" alt="Icone de seta">
+            </span>
+          </div>
+          <div class="partners__slide-items jsEmpresaPartnersSlide">
+            <div class="partiners__slide-item">
+              <img src="./assets/img/logo-kanaflex.png" alt="Logo da empresa kanaflex">
+            </div>
+            <div class="partiners__slide-item">
+              <img src="./assets/img/logo-voss.png" alt="Logo da empresa voss">
+            </div>
+            <div class="partiners__slide-item">
+              <img src="./assets/img/logo-ibira.png" alt="Logo da empresa ibira">
+            </div>
+            <div class="partiners__slide-item">
+              <img src="./assets/img/logo-himaflex.png" alt="Logo da empresa himaflex">
+            </div>
+            <div class="partiners__slide-item">
+              <img src="./assets/img/logo-oliplas.png" width="130" alt="Logo da empresa oliplas">
+            </div>
+          </div>          
         </div>
       </div>
     </div>

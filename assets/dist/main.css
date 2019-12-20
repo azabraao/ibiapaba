@@ -766,3 +766,29 @@ html, body {
   .missao-visao-valores .missao-visao-valores__inside .missao-visao-valores__boxes .missao-visao-valores__box {
     margin: 1.25rem;
     padding: 1.25rem 2.5rem; } }
+
+.partners .partners__slide {
+  background: #E5E5E5;
+  padding: 2.34375rem 0;
+  position: relative; }
+  .partners .partners__slide .partners__slide-controls {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.625rem; }
+    .partners .partners__slide .partners__slide-controls .partners__slide-control {
+      pointer-events: all; }
+  .partners .partners__slide .partners__slide-items .partiners__slide-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9.375rem;
+    padding: 1.25rem; }
