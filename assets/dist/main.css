@@ -792,3 +792,34 @@ html, body {
     align-items: center;
     height: 9.375rem;
     padding: 1.25rem; }
+
+.responsaveis .responsaveis__boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .responsaveis .responsaveis__boxes .responsaveis__box {
+    margin: 1.25rem;
+    width: 220px; }
+    .responsaveis .responsaveis__boxes .responsaveis__box .responsaveis__box-top .responsaveis__card .responsaveis__card-bottom {
+      background: #0A5EBC;
+      text-align: center;
+      margin-top: -4px;
+      padding: 0.625rem 0; }
+      .responsaveis .responsaveis__boxes .responsaveis__box .responsaveis__box-top .responsaveis__card .responsaveis__card-bottom .responsaveis__card-title,
+      .responsaveis .responsaveis__boxes .responsaveis__box .responsaveis__box-top .responsaveis__card .responsaveis__card-bottom .responsaveis__card-subtitle {
+        font-weight: bold;
+        font-family: Montserrat, sans-serif; }
+      .responsaveis .responsaveis__boxes .responsaveis__box .responsaveis__box-top .responsaveis__card .responsaveis__card-bottom .responsaveis__card-title {
+        display: block;
+        color: #fff;
+        margin-bottom: 0.3125rem;
+        font-size: 1.25rem; }
+      .responsaveis .responsaveis__boxes .responsaveis__box .responsaveis__box-top .responsaveis__card .responsaveis__card-bottom .responsaveis__card-subtitle {
+        font-size: 1rem; }
+    .responsaveis .responsaveis__boxes .responsaveis__box .responsaveis__box-bottom {
+      padding: 1.25rem 0;
+      text-align: center;
+      font-family: Rubik, Montserrat sans-serif; }
+      .responsaveis .responsaveis__boxes .responsaveis__box .responsaveis__box-bottom p {
+        font-size: 0.9rem;
+        margin-bottom: 0.3125rem; }
