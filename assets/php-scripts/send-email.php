@@ -56,9 +56,9 @@ try {
     // //Server settings
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtps.uol.com.br';                    // Set the SMTP server to send through
-    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'smtp@ibiapabasp.com.br';                     // SMTP username
-    $mail->Password   = 'Tn2omdw2i';                               // SMTP password
+    // $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+    // $mail->Username   = 'smtp@ibiapabasp.com.br';                     // SMTP username
+    // $mail->Password   = 'Tn2omdw2i';                               // SMTP password
     $mail->Port       = 465;                                    // TCP port to connect to
     
     // $mail->IsSMTP(); // Define que a mensagem será SMTP 
