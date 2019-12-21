@@ -56,9 +56,9 @@ try {
     // //Server settings
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtps.uol.com.br';                    // Set the SMTP server to send through
-    // $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    // $mail->Username   = 'smtp@ibiapabasp.com.br';                     // SMTP username
-    // $mail->Password   = 'Tn2omdw2i';                               // SMTP password
+    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
+    $mail->Username   = 'smtp@ibiapabasp.com.br';                     // SMTP username
+    $mail->Password   = 'Tn2omdw2i';                               // SMTP password
     $mail->Port       = 465;                                    // TCP port to connect to
     
     // $mail->IsSMTP(); // Define que a mensagem será SMTP 
@@ -72,7 +72,7 @@ try {
 
 
     //Recipients
-    $mail->setFrom('az.abraao@gmail.com', 'Mailer');
+    $mail->setFrom('smtp@ibiapabasp.com.br', 'Site Ibiapaba');
     $mail->addAddress('az.abraao@gmail.com', 'Joe User');     // Add a recipient
     $mail->addReplyTo('az.abraao@gmail.com', 'Information');
 
