@@ -53,13 +53,23 @@ include "PHPMailerAutoload.php";
 $mail = new PHPMailer(true);
 
 try {
-    //Server settings
-    $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtps.uol.com.br';                    // Set the SMTP server to send through
-    $mail->SMTPAuth   = false;                                   // Enable SMTP authentication
-    $mail->Username   = 'user@example.com';                     // SMTP username
-    $mail->Password   = 'secret';                               // SMTP password
-    $mail->Port       = 587;                                    // TCP port to connect to
+    // //Server settings
+    // $mail->isSMTP();                                            // Send using SMTP
+    // $mail->Host       = 'smtps.uol.com.br';                    // Set the SMTP server to send through
+    // $mail->SMTPAuth   = false;                                   // Enable SMTP authentication
+    // $mail->Username   = 'user@example.com';                     // SMTP username
+    // $mail->Password   = 'secret';                               // SMTP password
+    // $mail->Port       = 587;                                    // TCP port to connect to
+    
+    $mail->IsSMTP(); // Define que a mensagem será SMTP 
+    $mail->Host = "smtp.sparkpostmail.com";
+    $mail->Port = 2525;
+    $mail->SMTPAuth = true;
+    $mail->Username = 'SMTP_Injection';
+    $mail->Password = 'c63f29f9d57ded6a2c7c336a962e187308692abb'; 
+    $mail->Security = 'TLS';
+     
+
 
     //Recipients
     $mail->setFrom('az.abraao@gmail.com', 'Mailer');
