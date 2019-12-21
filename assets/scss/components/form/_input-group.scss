@@ -1,0 +1,23 @@
+.input-group:not(:last-child) {
+  margin-bottom: $grid-1-mobile;
+}
+
+.input-group {
+  width: 100%;
+
+  .input-group__label {
+    display: block;
+    margin-bottom: $half-grid-mobile;
+    font-family: $font-primary;
+    font-weight: bold;
+  }
+  
+  .input-group__input,
+  .input-group__textarea {
+    font-family: $font-primary;
+    border: none;
+    padding: ($half-grid-mobile / 2) $half-grid-mobile;
+    width: inherit;
+    box-shadow: $box-shadow;
+  }
+}

@@ -17,6 +17,7 @@
     flex-direction: row;
     
     .column {
+      padding: 0 $grid-1-mobile;
       width: 100%;
     }
   }
