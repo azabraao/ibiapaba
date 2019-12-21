@@ -24,35 +24,35 @@
   <div class="container">
     <div class="columns">
       <div class="column">
-        <form action="" class="form">
+        <form method="post" class="form jsContactForm">
           <div class="input-group">
             <label class="input-group__label">Nome:</label>
-            <input type="text" class="input-group__input" placeholder="Braufagelio">
+            <input required type="text" name="nome" class="input-group__input" placeholder="Braufagelio">
           </div>
           <div class="input-group">
             <label class="input-group__label">Email:</label>
-            <input type="text" class="input-group__input" placeholder="braufagelio@gmail.com">
+            <input required type="email" name="email" class="input-group__input" placeholder="braufagelio@gmail.com">
           </div>
           <div class="input-group">
             <label class="input-group__label">Telefone:</label>
-            <input type="text" class="input-group__input" placeholder="(11) 99999-9999">
+            <input type="text" name="telefone" class="input-group__input" placeholder="(11) 99999-9999">
           </div>
           <div class="input-group">
             <label class="input-group__label">Como nos conheceu?</label>
-            <input type="text" class="input-group__input" placeholder="Google, Facebook, Instagram">
+            <input type="text" name="como_conheceu" class="input-group__input" placeholder="Google, Facebook, Instagram">
           </div>
           <div class="input-group">
             <label class="input-group__label">Assunto:</label>
-            <input type="text" class="input-group__input" placeholder="Financeiro, Produção. Comercial">
+            <input required type="text" name="assunto" class="input-group__input" placeholder="Financeiro, Produção. Comercial">
           </div>
           <div class="input-group">
             <label class="input-group__label">Mensagem:</label>
-            <textarea type="text" class="input-group__textarea" 
+            <textarea required type="text" name="mensagem" class="input-group__textarea" 
             rows="4" placeholder="Dúvidas, elogios, sugestão."></textarea>
           </div>
-          <div class="button button-primary button-small outlined">
+          <button type="submit" class="button button-primary button-small outlined jsContactFormButtonSubmit">
             Enviar
-          </div>
+          </button>
         </form>
       </div>
       <div class="column">
