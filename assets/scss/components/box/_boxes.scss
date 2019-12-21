@@ -1,3 +1,7 @@
+.boxes.spaced {
+  margin: $grid-1-mobile 0;
+}
+
 .boxes {
   display: flex;
   flex-direction: column;

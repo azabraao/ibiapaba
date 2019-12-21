@@ -115,6 +115,22 @@ html, body {
   .container {
     width: 65.625rem; } }
 
+.columns {
+  display: flex;
+  flex-direction: column; }
+  .columns .column {
+    width: 100%; }
+
+.columns.centered {
+  align-items: center;
+  justify-content: center; }
+
+@media only screen and (min-width: 48rem) {
+  .columns {
+    flex-direction: row; }
+    .columns .column {
+      width: 100%; } }
+
 .navbar {
   height: 3.75rem; }
   .navbar .navbar__inside {
@@ -290,6 +306,9 @@ html, body {
       width: 50px;
       height: 5px; } }
 
+.boxes.spaced {
+  margin: 1.25rem 0; }
+
 .boxes {
   display: flex;
   flex-direction: column;
@@ -322,6 +341,14 @@ html, body {
     text-align: center;
     font-family: Rubik, Montserrat sans-serif;
     font-size: 1rem; }
+
+.box.w-medium {
+  max-width: 455px;
+  width: 100%; }
+
+.box.h-unset {
+  height: unset;
+  min-height: unset; }
 
 .footer .footer__top {
   background: #000;
@@ -735,6 +762,15 @@ html, body {
 .font-secondary {
   font-family: Montserrat, sans-serif; }
 
+.font-small {
+  font-size: 0.75rem; }
+
+.font-medium {
+  font-size: 1.25rem; }
+
+.font-large {
+  font-size: 1.5rem; }
+
 .text-bolder {
   font-weight: bolder; }
 
@@ -758,6 +794,28 @@ html, body {
 
 .text-right {
   text-align: right; }
+
+.flex {
+  display: flex; }
+
+.justify-center {
+  justify-content: center; }
+
+.row {
+  margin: 1.25rem 0; }
+
+.row.small {
+  margin: 0.625rem 0; }
+
+.p-grid-1 {
+  padding: 1.25rem; }
+
+.m-bottom-grid-1 {
+  margin-bottom: 1.25rem; }
+
+@media only screen and (min-width: 48rem) {
+  .p-grid-1 {
+    padding: 4.6875rem; } }
 
 .header {
   padding: 3.75rem 0;
