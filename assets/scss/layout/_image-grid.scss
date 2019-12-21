@@ -1,0 +1,10 @@
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  img {
+    margin: $grid-1-mobile;
+    max-width: $grid-3-desktop;
+  }
+}

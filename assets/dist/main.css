@@ -131,6 +131,14 @@ html, body {
     .columns .column {
       width: 100%; } }
 
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .image-grid img {
+    margin: 1.25rem;
+    max-width: 14.0625rem; }
+
 .navbar {
   height: 3.75rem; }
   .navbar .navbar__inside {
