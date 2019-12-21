@@ -474,6 +474,32 @@ html, body {
   .gallery .gallery__list .gallery__list-item {
     height: 185.4px; } }
 
+.simple-gallery {
+  padding: 1.25rem 0; }
+  .simple-gallery .simple-gallery__row {
+    margin-bottom: 1.25rem; }
+    .simple-gallery .simple-gallery__row .simple-gallery__row-title {
+      margin-bottom: 1.25rem; }
+      .simple-gallery .simple-gallery__row .simple-gallery__row-title h2 {
+        font-family: Rubik, Montserrat sans-serif;
+        font-weight: bold;
+        font-size: 1.25rem; }
+    .simple-gallery .simple-gallery__row .simple-gallery__row-images {
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap; }
+      .simple-gallery .simple-gallery__row .simple-gallery__row-images img {
+        width: 300px;
+        margin: 0.625rem 0; }
+
+@media only screen and (min-width: 48rem) {
+  .simple-gallery .simple-gallery__row .simple-gallery__row-images {
+    flex-direction: row; }
+    .simple-gallery .simple-gallery__row .simple-gallery__row-images img {
+      margin: 1.25rem;
+      margin-top: 0;
+      margin-left: 0; } }
+
 .button {
   border: none;
   width: 14.0625rem;

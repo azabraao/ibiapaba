@@ -380,7 +380,53 @@ include('./components/global_head.php');
           </div>
         </div>
         <div class="tab__content jsProdutosTabContent <?php if($tab == "ferramental") echo "active" ?>" data-tab="ferramental">
-          ferramental
+          <div class="simple-gallery">
+            <div class="simple-gallery__row">
+              <div class="simple-gallery__row-title">
+                <h2>
+                  Cabeçoce
+                </h2>
+              </div>
+              <div class="simple-gallery__row-images">
+                <img src="./assets/img/cabecote-1.png" alt="Cabeçote">
+                <img src="./assets/img/cabecote-2.png" alt="Cabeçote">
+                <img src="./assets/img/cabecote-3.png" alt="Cabeçote">
+              </div>
+            </div>
+            <div class="simple-gallery__row">
+              <div class="simple-gallery__row-title">
+                <h2>
+                  Pino
+                </h2>
+              </div>
+              <div class="simple-gallery__row-images">
+                <img src="./assets/img/pino-1.png" alt="Pino">
+                <img src="./assets/img/pino-2.png" alt="Pino">
+              </div>
+            </div>
+            <div class="simple-gallery__row">
+              <div class="simple-gallery__row-title">
+                <h2>
+                  Matriz
+                </h2>
+              </div>
+              <div class="simple-gallery__row-images">
+                <img src="./assets/img/matriz-1.png" alt="Matriz">
+                <img src="./assets/img/matriz-2.png" alt="Matriz">
+              </div>
+            </div>
+            <div class="simple-gallery__row">
+              <div class="simple-gallery__row-title">
+                <h2>
+                  Túnel de aquecimento
+                </h2>
+              </div>
+              <div class="simple-gallery__row-images">
+                <img src="./assets/img/tunel-aquecimento-1.png" 
+                alt="Túnel aquecimento">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
