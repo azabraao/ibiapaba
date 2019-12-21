@@ -5,6 +5,7 @@
 ?>
 <body>
 <?php
+  $page = "/empresa";
   include('./components/navbar.php');
 ?>
 <header class="page-header empresa">

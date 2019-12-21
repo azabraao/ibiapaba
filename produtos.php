@@ -13,7 +13,8 @@ include('./components/global_head.php');
 <body>
   
   <?php 
-  include('./components/navbar.php');
+    $page = "/produtos";
+    include('./components/navbar.php');
   ?>
   
   <header class="page-header linha-produtos">

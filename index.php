@@ -8,6 +8,7 @@
 <body>
 
 <?php 
+  $page = "/";
   include('./components/navbar.php');
 ?>
 

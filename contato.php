@@ -6,6 +6,7 @@
 <body>
   
 <?php 
+  $page = "/contato";
   include('./components/navbar.php');
 ?>
 
