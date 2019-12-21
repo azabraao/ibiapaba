@@ -12,6 +12,8 @@
 
 
 <?php
+  include('./components/responsaveis.php');
+  include('./components/footer.php');
   include('./components/global_scripts.php');
 ?>
 </body>
