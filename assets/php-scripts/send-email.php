@@ -50,7 +50,7 @@ include "PHPMailerAutoload.php";
 
 
 // Instantiation and passing `true` enables exceptions
-$mail = new PHPMailer(true);
+$mail = new PHPMailer();
 
 try {
     // //Server settings
@@ -73,8 +73,8 @@ try {
 
     //Recipients
     $mail->setFrom('smtp@ibiapabasp.com.br', 'Site Ibiapaba');
-    $mail->addAddress('az.abraao@gmail.com', 'Joe User');     // Add a recipient
-    $mail->addReplyTo('az.abraao@gmail.com', 'Information');
+    $mail->addAddress('az.abraao@gmail.com', 'Abraão');     // Add a recipient
+    // $mail->addReplyTo('az.abraao@gmail.com', 'Information');
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
