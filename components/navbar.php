@@ -1,8 +1,25 @@
 
 <?php
   $url = $_SERVER["REQUEST_URI"];
-?>
 
+  
+  ?>
+
+<!-- 
+  <?php
+      $xmlFile = pathinfo($url);
+
+      function filePathParts($arg1) {
+          echo $arg1['dirname'], "\n";
+          echo $arg1['basename'], "\n";
+          echo $arg1['filename'], "\n";
+      }
+  
+      $arr = filePathParts($xmlFile);
+
+      print_r($xmlFile);
+  ?>
+ -->
 <nav class="navbar">
   <div class="navbar__inside">
     <div class="navbar__logo">
