@@ -7,6 +7,44 @@ echo $como_conheceu = $_POST['como_conheceu'];
 echo $assunto = $_POST['assunto']; 
 echo $mensagem = $_POST['mensagem']; 
 
+
+// $nome = "Abraao";
+// $email = "az@gmail";
+// $mensagem = "Mensagem Teste";
+
+// require_once("PHPMailerAutoload.php");
+
+// $mail = new PHPMailer();
+
+// $mail->isSMTP();
+// $mail->Host = 'smtps.uol.com.br';
+// $mail->Port = 587;
+// $mail->SMTPSecure = 'tls';
+// $mail->SMTPAuth = true;
+// $mail->Username = "MEUEMAIL@gmail.com";
+// $mail->Password = "MINHASENHA";
+
+// $mail->setFrom("MEUEMAIL@gmail.com", "Alura Curso PHP e MySQL");
+
+// $mail->addAddress("MEUEMAIL@gmail.com");
+
+// $mail->Subject = "Email de contato da loja";
+
+// $mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}</html>");
+
+// $mail->AltBody = "de: {$nome}\nemail:{$email}\nmensagem: {$mensagem}";
+
+// if($mail->send()) {
+//     $_SESSION["success"] = "Mensagem enviada com sucesso";
+//     header("Location: index.php");
+// } else {
+//     $_SESSION["danger"] = "Erro ao enviar mensagem " . $mail->ErrorInfo;
+//     header("Location: contato.php");
+// }
+// die();
+
+
+
 error_reporting ( E_ALL );
 
 include "PHPMailerAutoload.php"; 
@@ -18,7 +56,7 @@ $mail->SMTPDebug = 1;
 $mail->IsSMTP(); 
 $mail->Host = "smtps.uol.com.br"; 
 $mail->SMTPAuth = true; 
-$mail->Port = 587;
+$mail->Port = 465;
 $mail->SMTPSecure = "tls";
 $mail->Username = "cleitonalves@gmail.com";
 $mail->Password = "Webibiapaba2@19"; 
