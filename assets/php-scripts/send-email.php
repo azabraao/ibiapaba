@@ -1,6 +1,6 @@
 <?php
 
-echo "11 ";
+echo "12 ";
 $nome = $_POST['nome']; 
 $email = $_POST['email']; 
 $telefone = $_POST['telefone']; 
@@ -13,7 +13,7 @@ $mensagem = "
 <b>Telefone:</b> "+$telefone+"
 <b>Como chegou a nós:</b> "+$como_conheceu+"
 <b>Mensagem:</b> "+$mensagem+"
-"
+";
 // e-mail para receber os dados do formulario
 // insira uma conta de e-mail valida em sua hospedagem
 $destino = "smtp@ibiapabasp.com.br";
