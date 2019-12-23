@@ -1,6 +1,6 @@
 <?php
 
-echo "8 ";
+echo "7 ";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
@@ -20,8 +20,8 @@ $mail = new PHPMailer();
 $mail->isSMTP();
 $mail->Host = 'smtp.ibiapabasp.com.br';
 $mail->Port = 587;
-$mail->SMTPSecure = 'tls';
-$mail->SMTPAuth = true;
+// $mail->SMTPSecure = 'tls';
+// $mail->SMTPAuth = true;
 $mail->Username = "smtp@ibiapabasp.com.br";
 $mail->Password = "Tn2omdw2i";
 
