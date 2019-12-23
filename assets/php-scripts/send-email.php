@@ -1,6 +1,6 @@
 <?php
 
-echo "7 ";
+echo "8 ";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
@@ -18,7 +18,7 @@ require_once("PHPMailerAutoload.php");
 $mail = new PHPMailer();
 
 $mail->isSMTP();
-$mail->Host = 'tls://smtps.uol.com.br';
+$mail->Host = 'smtp.ibiapabasp.com.br';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
