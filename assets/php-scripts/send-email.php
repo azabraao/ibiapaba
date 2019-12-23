@@ -1,6 +1,6 @@
 <?php
 
-echo "7 ";
+echo "10 ";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
@@ -8,39 +8,56 @@ echo $como_conheceu = $_POST['como_conheceu'];
 echo $assunto = $_POST['assunto']; 
 echo $mensagem = $_POST['mensagem']; 
 
+// e-mail para receber os dados do formulario
+// insira uma conta de e-mail valida em sua hospedagem
+$destino = "smtp@ibiapabasp.com.br";
+// O remetente deve ser um e-mail do seu domínio conforme determina a RFC 822.
+$remetente = $destino;
+$mensagem = "teste";
+$subject = "teste";
+$origem = "smtp@ibiapabasp.com.br";
+$headers = "MIME-Version: 1.1\n";
+$headers .= "Content-type: text/plain; charset=iso-8859-1\n";
+$headers .= "From: " . $remetente . "\n";
+$headers .= "Reply-To: " . $origem . "\n";
+if(mail($destino, $subject, $mensagem, $headers))
+ echo "Mensagem enviada com sucesso";
+else
+ echo "A mensagem não pode ser enviada";
 
-$nome = "Abraao";
-$email = "az@gmail";
-$mensagem = "Mensagem Teste";
 
-require_once("PHPMailerAutoload.php");
+// $nome = "Abraao";
+// $email = "az@gmail";
+// $mensagem = "Mensagem Teste";
 
-$mail = new PHPMailer();
+// require_once("PHPMailerAutoload.php");
 
-$mail->isSMTP();
-$mail->Host = 'smtp.ibiapabasp.com.br';
-$mail->Port = 587;
+// $mail = new PHPMailer();
+
+// $mail->isSMTP();
+// $mail->Host = 'tls://smtp.ibiapabasp.com.br';
+// $mail->Port = 587;
 // $mail->SMTPSecure = 'tls';
 // $mail->SMTPAuth = true;
-$mail->Username = "smtp@ibiapabasp.com.br";
-$mail->Password = "Tn2omdw2i";
+// $mail->Username = "smtp@ibiapabasp.com.br";
+// $mail->Password = "Tn2omdw2i";
 
-$mail->setFrom("smtp@ibiapabasp.com.br", "Alura Curso PHP e MySQL");
+// $mail->setFrom("smtp@ibiapabasp.com.br", "Alura Curso PHP e MySQL");
 
-$mail->addAddress("az.abraao@gmail.com");
+// $mail->addAddress("az.abraao@gmail.com");
 
-$mail->Subject = "Email de contato da loja";
+// $mail->Subject = "Email de contato da loja";
 
-$mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}</html>");
+// $mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}</html>");
 
-$mail->AltBody = "de: {$nome}\nemail:{$email}\nmensagem: {$mensagem}";
+// $mail->AltBody = "de: {$nome}\nemail:{$email}\nmensagem: {$mensagem}";
 
-if($mail->send()) {
-  echo "Mensagem enviada com sucesso";
-} else {
-  echo $mail->ErrorInfo;
-}
-die();
+// if($mail->send()) {
+//   echo "Mensagem enviada com sucesso";
+// } else {
+//   echo $mail->ErrorInfo;
+// }
+// die();
 
 
 

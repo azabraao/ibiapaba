@@ -4,7 +4,11 @@
   include('./components/global_head.php');
 ?>
 <body>
-  
+  <!-- 
+    <?php
+      echo phpinfo();
+    ?>
+   -->
 <?php 
   $page = "/contato";
   include('./components/navbar.php');
