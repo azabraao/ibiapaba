@@ -32,7 +32,7 @@ $mail->Subject = "Assinatura de Newsletter";
 $mail->clearAddresses();
 $mail->Body = "Alguém assinou sua newsletter. <br/> email:".$email;
 
-// $mail->AddAddress('az.abraao@gmail.com', 'Ivens');
+$mail->AddAddress('az.abraao@gmail.com', 'Ivens');
 
 $enviado = $mail->Send() or die('Erro no envio aos destinarários finais'.$mail->ErrorInfo);
 
