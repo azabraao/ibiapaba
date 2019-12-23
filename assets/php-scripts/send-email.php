@@ -12,12 +12,12 @@ error_reporting ( E_ALL );
 include "PHPMailerAutoload.php"; 
 
 $mail = new PHPMailer(); 
-$email->SMTPDebug = 1;
+$mail->SMTPDebug = 1;
 $mail->IsSMTP(); 
 $mail->Host = "smtp.sparkpostmail.com"; 
 $mail->SMTPAuth = true; 
 $mail->Port = 2525;
-$email->SMTPSecure = 'tls';
+$mail->SMTPSecure = 'tls';
 $mail->Username = "SMTP_Injection";
 $mail->Password = '85d670579843b63c5e1749fe5907bf6ddd4bd145'; 
 $mail->SMTPOptions = array( 'ssl' => array( 'verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true ) ); 
