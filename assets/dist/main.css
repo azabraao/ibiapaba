@@ -165,7 +165,7 @@ html, body {
       cursor: pointer; }
       .navbar .navbar__inside .menu .menu__hamburguer .line {
         display: block;
-        height: 2px;
+        height: 3px;
         width: 100%;
         background-color: #0A5EBC; }
     .navbar .navbar__inside .menu .menu__links {
