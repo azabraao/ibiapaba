@@ -1,6 +1,6 @@
 <?php
 
-echo "carreguei";
+echo "carreguei 2";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
@@ -59,8 +59,8 @@ $mail->Host = "smtps.uol.com.br";
 $mail->SMTPAuth = true; 
 $mail->Port = 465;
 $mail->SMTPSecure = "tls";
-$mail->Username = "cleitonalves@gmail.com";
-$mail->Password = "Webibiapaba2@19"; 
+$mail->Username = "smtp@ibiapabasp.com.br";
+$mail->Password = "Tn2omdw2i"; 
 $mail->SMTPOptions = array( "ssl" => array( "verify_peer" => false, "verify_peer_name" => false, "allow_self_signed" => true ) ); 
 $mail->From = "smtp@ibiapabasp.com.br";
 $mail->FromName = "Ibiapaba"; 
