@@ -1,6 +1,6 @@
 <?php
 
-echo "carreguei"
+echo "carreguei";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
