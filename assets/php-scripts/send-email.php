@@ -1,23 +1,29 @@
 <?php
 
-echo "10 ";
-echo $nome = $_POST['nome']; 
-echo $email = $_POST['email']; 
-echo $telefone = $_POST['telefone']; 
-echo $como_conheceu = $_POST['como_conheceu']; 
-echo $assunto = $_POST['assunto']; 
-echo $mensagem = $_POST['mensagem']; 
-
+echo "11 ";
+$nome = $_POST['nome']; 
+$email = $_POST['email']; 
+$telefone = $_POST['telefone']; 
+$como_conheceu = $_POST['como_conheceu']; 
+$assunto = $_POST['assunto']; 
+$mensagem = $_POST['mensagem']; 
+$mensagem = "
+<h1>Contato via site</h1>
+<b>Nome:</b> "+$nome+"
+<b>Telefone:</b> "+$telefone+"
+<b>Como chegou a nós:</b> "+$como_conheceu+"
+<b>Mensagem:</b> "+$mensagem+"
+"
 // e-mail para receber os dados do formulario
 // insira uma conta de e-mail valida em sua hospedagem
 $destino = "smtp@ibiapabasp.com.br";
 // O remetente deve ser um e-mail do seu domínio conforme determina a RFC 822.
 $remetente = $destino;
-$mensagem = "teste";
-$subject = "teste";
-$origem = "smtp@ibiapabasp.com.br";
+$mensagem = $mensagem;
+$subject = $assunto;
+$origem = $email;
 $headers = "MIME-Version: 1.1\n";
-$headers .= "Content-type: text/plain; charset=iso-8859-1\n";
+$headers .= "Content-type: text/html; charset=iso-8859-1\n";
 $headers .= "From: " . $remetente . "\n";
 $headers .= "Reply-To: " . $origem . "\n";
 if(mail($destino, $subject, $mensagem, $headers))
