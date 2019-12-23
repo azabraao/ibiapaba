@@ -15,7 +15,7 @@ $mail = new PHPMailer();
 $mail->SMTPDebug = 1;
 $mail->IsSMTP(); 
 $mail->Host = "smtps.uol.com.br"; 
-$mail->SMTPAuth = false; 
+$mail->SMTPAuth = true; 
 $mail->Port = 587;
 $mail->SMTPSecure = "tls";
 $mail->Username = "smtp@ibiapabasp.com.br";
