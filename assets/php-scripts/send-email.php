@@ -1,6 +1,6 @@
 <?php
 
-echo "14 ";
+echo "15 ";
 $nome = $_POST['nome']; 
 $email = $_POST['email']; 
 $telefone = $_POST['telefone']; 
@@ -22,7 +22,7 @@ $mensagem = $mensagem;
 $subject = $assunto;
 $origem = $email;
 $headers = "MIME-Version: 1.1\n";
-$headers .= "Content-type: text/html; charset=utf-8";
+$headers .= "Content-type: text/html; charset=utf-8\n";
 $headers .= "From: " . $remetente . "\n";
 $headers .= "Reply-To: " . $origem . "\n";
 if(mail($destino, $subject, $mensagem, $headers))
