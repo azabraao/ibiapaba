@@ -1,6 +1,6 @@
 <?php
 
-echo "3 ";
+echo "4 ";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
@@ -9,79 +9,77 @@ echo $assunto = $_POST['assunto'];
 echo $mensagem = $_POST['mensagem']; 
 
 
-// $nome = "Abraao";
-// $email = "az@gmail";
-// $mensagem = "Mensagem Teste";
+$nome = "Abraao";
+$email = "az@gmail";
+$mensagem = "Mensagem Teste";
 
-// require_once("PHPMailerAutoload.php");
+require_once("PHPMailerAutoload.php");
 
-// $mail = new PHPMailer();
+$mail = new PHPMailer();
 
-// $mail->isSMTP();
-// $mail->Host = 'smtps.uol.com.br';
-// $mail->Port = 587;
-// $mail->SMTPSecure = 'tls';
-// $mail->SMTPAuth = true;
-// $mail->Username = "MEUEMAIL@gmail.com";
-// $mail->Password = "MINHASENHA";
-
-// $mail->setFrom("MEUEMAIL@gmail.com", "Alura Curso PHP e MySQL");
-
-// $mail->addAddress("MEUEMAIL@gmail.com");
-
-// $mail->Subject = "Email de contato da loja";
-
-// $mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}</html>");
-
-// $mail->AltBody = "de: {$nome}\nemail:{$email}\nmensagem: {$mensagem}";
-
-// if($mail->send()) {
-//     $_SESSION["success"] = "Mensagem enviada com sucesso";
-//     header("Location: index.php");
-// } else {
-//     $_SESSION["danger"] = "Erro ao enviar mensagem " . $mail->ErrorInfo;
-//     header("Location: contato.php");
-// }
-// die();
-
-
-
-error_reporting ( E_ALL );
-
-include "PHPMailerAutoload.php"; 
-// cleitonalves@gmail.com
-// Webibiapaba2@19
-
-$mail = new PHPMailer(); 
-$mail->SMTPDebug = 1;
-$mail->IsSMTP(); 
-$mail->Host = "smtps.uol.com.br"; 
-$mail->SMTPAuth = true; 
+$mail->isSMTP();
+$mail->Host = 'smtps.uol.com.br';
 $mail->Port = 587;
-$mail->SMTPSecure = "tls";
+$mail->SMTPSecure = 'tls';
+$mail->SMTPAuth = true;
 $mail->Username = "smtp@ibiapabasp.com.br";
-$mail->Password = "Tn2omdw2i"; 
-$mail->SMTPOptions = array( "ssl" => array( "verify_peer" => false, "verify_peer_name" => false, "allow_self_signed" => true ) ); 
-$mail->From = "smtp@ibiapabasp.com.br";
-$mail->FromName = "Ibiapaba"; 
+$mail->Password = "Tn2omdw2i";
 
-// $mail->AddAddress("az.abraao@gmail.com", "Abraao"); 
-$mail->IsHTML(true);
+$mail->setFrom("smtp@ibiapabasp.com.br", "Alura Curso PHP e MySQL");
 
-$mail->CharSet = "UTF-8"; 
-$mail->Subject = "Assinatura de Newsletter"; 
-$mail->clearAddresses();
-$mail->Body = "Alguém assinou sua newsletter. <br/> email:".$email;
+$mail->addAddress("az.abraao@gmail.com");
 
-$mail->AddAddress("az.abraao@gmail.com", "Ivens");
+$mail->Subject = "Email de contato da loja";
 
-$enviado = $mail->Send() or die("Erro no envio aos destinarários finais".$mail->ErrorInfo);
+$mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}</html>");
 
-if ($enviado) { 
-    echo "Seu email foi enviado com sucesso!"; 
-} else { 
-    echo "Houve um erro enviando o email: ".$mail->ErrorInfo; 
-} 
+$mail->AltBody = "de: {$nome}\nemail:{$email}\nmensagem: {$mensagem}";
+
+if($mail->send()) {
+    $_SESSION["success"] = "Mensagem enviada com sucesso";
+} else {
+    $_SESSION["danger"] = "Erro ao enviar mensagem " . $mail->ErrorInfo;
+}
+die();
+
+
+
+// error_reporting ( E_ALL );
+
+// include "PHPMailerAutoload.php"; 
+// // cleitonalves@gmail.com
+// // Webibiapaba2@19
+
+// $mail = new PHPMailer(); 
+// $mail->SMTPDebug = 1;
+// $mail->IsSMTP(); 
+// $mail->Host = "smtps.uol.com.br"; 
+// $mail->SMTPAuth = true; 
+// $mail->Port = 587;
+// $mail->SMTPSecure = "tls";
+// $mail->Username = "smtp@ibiapabasp.com.br";
+// $mail->Password = "Tn2omdw2i"; 
+// $mail->SMTPOptions = array( "ssl" => array( "verify_peer" => false, "verify_peer_name" => false, "allow_self_signed" => true ) ); 
+// $mail->From = "smtp@ibiapabasp.com.br";
+// $mail->FromName = "Ibiapaba"; 
+
+// // $mail->AddAddress("az.abraao@gmail.com", "Abraao"); 
+// $mail->IsHTML(true);
+
+// $mail->CharSet = "UTF-8"; 
+// $mail->Subject = "Assinatura de Newsletter"; 
+// $mail->clearAddresses();
+// $mail->Body = "Alguém assinou sua newsletter. <br/> email:".$email;
+
+// $mail->AddAddress("az.abraao@gmail.com", "Ivens");
+
+// $enviado = $mail->Send() or die("Erro no envio aos destinarários finais".$mail->ErrorInfo);
+
+// if ($enviado) { 
+//     echo "Seu email foi enviado com sucesso!"; 
+// } else { 
+//     echo "Houve um erro enviando o email: ".$mail->ErrorInfo; 
+// } 
 
 
 
