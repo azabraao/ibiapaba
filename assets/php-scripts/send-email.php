@@ -7,9 +7,6 @@ echo $como_conheceu = $_POST['como_conheceu'];
 echo $assunto = $_POST['assunto']; 
 echo $mensagem = $_POST['mensagem']; 
 
-
-<?php   
-
 error_reporting ( E_ALL );
 
 include "PHPMailerAutoload.php"; 
