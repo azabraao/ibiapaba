@@ -1,18 +1,17 @@
 <?php
 
-echo "13 ";
+echo "14 ";
 $nome = $_POST['nome']; 
 $email = $_POST['email']; 
 $telefone = $_POST['telefone']; 
 $como_conheceu = $_POST['como_conheceu']; 
 $assunto = $_POST['assunto']; 
-$mensagem = $_POST['mensagem']; 
 $mensagem = "
-<h1>Contato via site</h1>
-<b>Nome:</b> ".$nome."
-<b>Telefone:</b> ".$telefone."
-<b>Como chegou a nós:</b> ".$como_conheceu."
-<b>Mensagem:</b> ".$mensagem."
+<h1>Contato via site</h1> <br/>
+<b>Nome:</b> ".$nome."<br/>
+<b>Telefone:</b> ".$telefone." <br/>
+<b>Como chegou a nós:</b> ".$como_conheceu." <br/>
+<b>Mensagem:</b> ".$_POST['mensagem']."
 ";
 // e-mail para receber os dados do formulario
 // insira uma conta de e-mail valida em sua hospedagem
@@ -23,7 +22,7 @@ $mensagem = $mensagem;
 $subject = $assunto;
 $origem = $email;
 $headers = "MIME-Version: 1.1\n";
-$headers .= "Content-type: text/html; charset=iso-8859-1\n";
+$headers .= "Content-type: text/html; charset=utf-8";
 $headers .= "From: " . $remetente . "\n";
 $headers .= "Reply-To: " . $origem . "\n";
 if(mail($destino, $subject, $mensagem, $headers))
