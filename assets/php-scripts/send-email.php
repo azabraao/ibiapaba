@@ -1,6 +1,6 @@
 <?php
 
-echo "6 ";
+echo "7 ";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
@@ -18,11 +18,11 @@ require_once("PHPMailerAutoload.php");
 $mail = new PHPMailer();
 
 $mail->isSMTP();
-$mail->Host = 'smtps.uol.com.br';
+$mail->Host = 'tls://smtps.uol.com.br';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
 $mail->SMTPAuth = true;
-$mail->Username = "tls://smtp@ibiapabasp.com.br";
+$mail->Username = "smtp@ibiapabasp.com.br";
 $mail->Password = "Tn2omdw2i";
 
 $mail->setFrom("smtp@ibiapabasp.com.br", "Alura Curso PHP e MySQL");
