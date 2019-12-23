@@ -46,10 +46,10 @@
           </div>
           <div class="footer__column-links">
             <div class="footer__column-link">
-              <a href="/reforma">Reforma</a>
+              <a href="/servicos">Reforma</a>
             </div>
             <div class="footer__column-link">
-              <a href="/mangueira">Mangueira</a>
+              <a href="/mangueiras">Mangueira</a>
             </div>
           </div>
         </div>
