@@ -10,6 +10,8 @@ echo $mensagem = $_POST['mensagem'];
 error_reporting ( E_ALL );
 
 include "PHPMailerAutoload.php"; 
+// cleitonalves@gmail.com
+// Webibiapaba2@19
 
 $mail = new PHPMailer(); 
 $mail->SMTPDebug = 1;
@@ -18,8 +20,8 @@ $mail->Host = "smtps.uol.com.br";
 $mail->SMTPAuth = true; 
 $mail->Port = 587;
 $mail->SMTPSecure = "tls";
-$mail->Username = "smtp@ibiapabasp.com.br";
-$mail->Password = "Tn2omdw2i"; 
+$mail->Username = "cleitonalves@gmail.com";
+$mail->Password = "Webibiapaba2@19"; 
 $mail->SMTPOptions = array( "ssl" => array( "verify_peer" => false, "verify_peer_name" => false, "allow_self_signed" => true ) ); 
 $mail->From = "smtp@ibiapabasp.com.br";
 $mail->FromName = "Ibiapaba"; 
