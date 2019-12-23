@@ -1,6 +1,6 @@
 <?php
 
-echo "carreguei 2";
+echo "3 ";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
@@ -57,7 +57,7 @@ $mail->SMTPDebug = 1;
 $mail->IsSMTP(); 
 $mail->Host = "smtps.uol.com.br"; 
 $mail->SMTPAuth = true; 
-$mail->Port = 465;
+$mail->Port = 587;
 $mail->SMTPSecure = "tls";
 $mail->Username = "smtp@ibiapabasp.com.br";
 $mail->Password = "Tn2omdw2i"; 
