@@ -1,6 +1,6 @@
 <?php
 
-echo "4 ";
+echo "5 ";
 echo $nome = $_POST['nome']; 
 echo $email = $_POST['email']; 
 echo $telefone = $_POST['telefone']; 
@@ -36,9 +36,9 @@ $mail->msgHTML("<html>de: {$nome}<br/>email: {$email}<br/>mensagem: {$mensagem}<
 $mail->AltBody = "de: {$nome}\nemail:{$email}\nmensagem: {$mensagem}";
 
 if($mail->send()) {
-    $_SESSION["success"] = "Mensagem enviada com sucesso";
+  echo "Mensagem enviada com sucesso";
 } else {
-    $_SESSION["danger"] = "Erro ao enviar mensagem " . $mail->ErrorInfo;
+  echo $mail->ErrorInfo;
 }
 die();
 
