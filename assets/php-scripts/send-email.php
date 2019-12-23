@@ -17,24 +17,24 @@ $mail->IsSMTP();
 $mail->Host = "smtps.uol.com.br"; 
 $mail->SMTPAuth = false; 
 $mail->Port = 587;
-$mail->SMTPSecure = 'tls';
+$mail->SMTPSecure = "tls";
 $mail->Username = "smtp@ibiapabasp.com.br";
-$mail->Password = 'Tn2omdw2i'; 
-$mail->SMTPOptions = array( 'ssl' => array( 'verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true ) ); 
+$mail->Password = "Tn2omdw2i"; 
+$mail->SMTPOptions = array( "ssl" => array( "verify_peer" => false, "verify_peer_name" => false, "allow_self_signed" => true ) ); 
 $mail->From = "smtp@ibiapabasp.com.br";
 $mail->FromName = "Ibiapaba"; 
 
 // $mail->AddAddress("az.abraao@gmail.com", "Abraao"); 
 $mail->IsHTML(true);
 
-$mail->CharSet = 'UTF-8'; 
+$mail->CharSet = "UTF-8"; 
 $mail->Subject = "Assinatura de Newsletter"; 
 $mail->clearAddresses();
 $mail->Body = "Alguém assinou sua newsletter. <br/> email:".$email;
 
-$mail->AddAddress('az.abraao@gmail.com', 'Ivens');
+$mail->AddAddress("az.abraao@gmail.com", "Ivens");
 
-$enviado = $mail->Send() or die('Erro no envio aos destinarários finais'.$mail->ErrorInfo);
+$enviado = $mail->Send() or die("Erro no envio aos destinarários finais".$mail->ErrorInfo);
 
 if ($enviado) { 
     echo "Seu email foi enviado com sucesso!"; 
