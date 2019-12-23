@@ -20,7 +20,7 @@ $mail->SMTPDebug = 1;
 $mail->IsSMTP(); 
 $mail->Host = "smtps.uol.com.br";
 $mail->SMTPAuth = true; 
-$mail->Port = 587;
+$mail->Port = 465;
 $mail->SMTPSecure = 'tls';
 $mail->Username = "smtp@ibiapabasp.com.br";
 $mail->Password = 'Tn2omdw2i'; 
