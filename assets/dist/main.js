@@ -7,7 +7,7 @@ $('.jsContactForm').on('submit', (e)=> {
     url: 'assets/php-scripts/send-email.php',
     data: $('.jsContactForm').serialize(),
     beforeSend: function(data) {
-      // document.querySelector('.jsContactForm').reset()
+      document.querySelector('.jsContactForm').reset()
       $('.jsContactFormButtonSubmit').addClass('loading')
       $('.jsContactFormButtonSubmit').text('Enviando...')
     },
@@ -22,7 +22,6 @@ $('.jsContactForm').on('submit', (e)=> {
         $('.jsContactFormButtonSubmit').removeClass('success')
         $('.jsContactFormButtonSubmit').text('Enviar')
       },4000)
-      console.log(data);
     }
   });
 });
