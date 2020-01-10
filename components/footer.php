@@ -72,7 +72,10 @@
             </h4>
           </div>
           <div class="footer__column-social">
-            <a class="footer__column-social-item">
+            <a 
+              href="https://www.facebook.com/ibiapabasp" 
+              target="_blank" 
+              class="footer__column-social-item">
               <img src="./assets/img/icon-facebook.png" alt="Ícone">
             </a>
             <a class="footer__column-social-item">
