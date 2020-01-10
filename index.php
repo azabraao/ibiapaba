@@ -112,7 +112,7 @@
         <h2>Sobre a Ibiapaba</h2>
       </div>
       <div class="section__subtitle">
-        <p>Conheça nossa história.</p>
+        <p>Conheça nossa história</p>
       </div>
     </div>
     <div class="section__body">
