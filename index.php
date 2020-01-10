@@ -252,12 +252,12 @@
               <div class="linha-producao-slide__controls">
                 <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideLeft">
                   <img 
-                  src="./assets/img/icon-white-arrow-left.png" 
+                  src="./assets/img/icon-black-arrow-left.png" 
                   alt="icone"/>
                 </span>
                 <span class="linha-producao-slide__control jsHomeLinhaProducaoSlideRight">
                   <img 
-                  src="./assets/img/icon-white-arrow-right.png" 
+                  src="./assets/img/icon-black-arrow-right.png" 
                   alt="icone"/>
                 </span>
               </div>
