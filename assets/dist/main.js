@@ -107,7 +107,9 @@ $(document).ready(() => {
 $('.jsProdutosTab').on('click', (e) => {
   let target = e.currentTarget;
   let tab = $(target).data('related-tab');
-
+  let pageHeader = document.querySelector('.jsLinhaProdutosHeader');
+  console.log(pageHeader);
+  pageHeader.style['background-image'] = "url(http://localhost/ibiapaba/assets/img/linha-de-produtos-"+tab+".png)";
   window.history.pushState({page:1}, document.title, `/produtos?tab=${tab}`);
 });
 

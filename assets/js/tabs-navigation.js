@@ -1,7 +1,8 @@
 $('.jsProdutosTab').on('click', (e) => {
   let target = e.currentTarget;
   let tab = $(target).data('related-tab');
-
+  let pageHeader = document.querySelector('.jsLinhaProdutosHeader');
+  pageHeader.style['background-image'] = "url(assets/img/linha-de-produtos-"+tab+".png)";
   window.history.pushState({page:1}, document.title, `/produtos?tab=${tab}`);
 });
 

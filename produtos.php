@@ -17,7 +17,7 @@ include('./components/global_head.php');
     include('./components/navbar.php');
   ?>
   
-  <header class="page-header linha-produtos">
+  <header class="page-header linha-produtos jsLinhaProdutosHeader">
     <div class="container">
       <div class="page-header__title">
         <h1>
