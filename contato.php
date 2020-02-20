@@ -31,11 +31,11 @@
         <form method="post" class="form jsContactForm">
           <div class="input-group">
             <label class="input-group__label">Nome:</label>
-            <input required type="text" name="nome" class="input-group__input" placeholder="Braufagelio">
+            <input required type="text" name="nome" class="input-group__input" placeholder="Digite seu nome">
           </div>
           <div class="input-group">
             <label class="input-group__label">Email:</label>
-            <input required type="email" name="email" class="input-group__input" placeholder="braufagelio@gmail.com">
+            <input required type="email" name="email" class="input-group__input" placeholder="Digite seu e-mail">
           </div>
           <div class="input-group">
             <label class="input-group__label">Telefone:</label>
@@ -70,7 +70,7 @@
                 Endereço
               </p>
               <p>
-                Rua Lago de Pedra, 1023 - Bairro Pimentas - Guarulhos - SP CEP: 07260-200
+                Rua Lago de Pedra, 1023 - Bairro Parque São Miguel - Guarulhos - SP CEP: 07260-200
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@
               </div>
               <div>
                 <p class="font-primary">
-                  (11) - 2480-0716  
+                  (11) 2480-0716
                 </p>
               </div>
             </div>

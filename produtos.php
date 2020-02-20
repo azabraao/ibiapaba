@@ -167,7 +167,8 @@ include('./components/global_head.php');
           <div class="features">
             <div class="content">
               <p>
-                Máquina com a capacidade de desenvolver tranças sobrepostas em mangueiras de polímeros ou elastômeros.
+                Máquina com a capacidade de desenvolver tranças sobrepostas em mangueiras de
+                polímeros ou elastômeros.
               </p>
               <p class="text-bold">
                 Onze motivos para adquirir nossa aspiraladeira:
@@ -227,7 +228,7 @@ include('./components/global_head.php');
                 <div class="features__item-content">
                   <p>
                     5) Trabalha com fios PP e poliester de número: 280, 550, 1100 ou 
-                    2200;
+                    2200.
                   </p>
                 </div>
               </div>
@@ -239,7 +240,7 @@ include('./components/global_head.php');
                 <div class="features__item-content">
                   <p>
                     6) A velocidade deste equipamento depende da capacidade da 
-                    extrusora;
+                    extrusora.
                   </p>
                 </div>
               </div>
@@ -255,7 +256,7 @@ include('./components/global_head.php');
                     podem ser encontradas mais 4 espulhas que inserem 
                     fios longitudinais que servem para dar maior 
                     resistência na tração do tubo que está 
-                    sendo trançado;
+                    sendo trançado.
                   </p>
                 </div>
               </div>
@@ -266,8 +267,8 @@ include('./components/global_head.php');
                 </div>
                 <div class="features__item-content">
                   <p>
-                    8) É equipada dois motores de 2 cv de 6 pólos 
-                    cada, gerando economia no consumo de energia;
+                    8) É equipada com dois motores de 2 cv de 6 pólos 
+                    cada, gerando economia no consumo de energia.
                   </p>
                 </div>
               </div>
@@ -280,7 +281,7 @@ include('./components/global_head.php');
                 <div class="features__item-content">
                   <p>
                     9) Fornecemos além da instalação feita no local, um treinamento 
-                    para o melhor aproveitamento do equipamento;
+                    para o melhor aproveitamento do equipamento.
                   </p>
                 </div>
               </div>
@@ -292,7 +293,7 @@ include('./components/global_head.php');
                 <div class="features__item-content">
                   <p>
                     10) Este é um equipamento de fácil manuseio permitindo assim a sua 
-                    utilização por qualquer pessoa;
+                    utilização por qualquer pessoa.
                   </p>
                 </div>
               </div>
@@ -304,7 +305,7 @@ include('./components/global_head.php');
                 </div>
                 <div class="features__item-content">
                   <p>
-                    11) Preço
+                    11) Preço.
                   </p>
                 </div>
               </div>
@@ -333,7 +334,7 @@ include('./components/global_head.php');
                 </div>
                 <div class="features__item-content">
                   <p>
-                    Puxador tipo catepilar dois braços, com correias transportadoras 
+                    Puxador tipo caterpillar dois braços, com correias transportadoras 
                     (com guia central em canal tipo B) para mangueiras ou perfis.
                     A Aspiraladeira necessitará de dois puxadores independente da 
                     situação.
@@ -361,7 +362,7 @@ include('./components/global_head.php');
                   <p>
                    Esta Aspiraladeira tem a sua velocidade controlada por um inversor 
                    de frequência, digital com ou sem potenciômetro, sua força é de 
-                   5cv. com uma rotação de 1.100 rpm, em dois motores de seis polos 
+                   5cv com uma rotação de 1.100 rpm, em dois motores de seis polos 
                    cada.
                   </p>
                 </div>
@@ -385,7 +386,7 @@ include('./components/global_head.php');
             <div class="simple-gallery__row">
               <div class="simple-gallery__row-title">
                 <h2>
-                  Cabeçoce
+                  Cabeçote
                 </h2>
               </div>
               <div class="simple-gallery__row-images">

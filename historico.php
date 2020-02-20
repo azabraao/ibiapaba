@@ -76,9 +76,9 @@
       <div class="time-line-content jsTabContent" data-tab="year_1996">
         <div class="time-line-content__column">
           <div class="content c-white">
-            <h5 class="text-bold">1º Atualização</h5>
+            <h5 class="text-bold">1ª Atualização</h5>
             <p>
-            Texto.
+          
             </p>
           </div>
         </div>
@@ -90,10 +90,9 @@
       <div class="time-line-content jsTabContent" data-tab="year_1998">
         <div class="time-line-content__column">
           <div class="content c-white">
-            <h5 class="text-bold">2° Atualização</h5>
+            <h5 class="text-bold">2ª Atualização</h5>
             <p>
-              Texto
-            </p>
+                        </p>
           </div>
         </div>
         <div class="time-line-content__column text-right">
@@ -104,10 +103,9 @@
       <div class="time-line-content jsTabContent" data-tab="year_2000">
         <div class="time-line-content__column">
           <div class="content c-white">
-            <h5 class="text-bold">3° Atualização</h5>
+            <h5 class="text-bold">3ª Atualização</h5>
             <p>
-            Texto
-            </p>
+                      </p>
           </div>
         </div>
         <div class="time-line-content__column text-right">
@@ -118,10 +116,9 @@
       <div class="time-line-content jsTabContent" data-tab="year_2003">
         <div class="time-line-content__column">
           <div class="content c-white">
-            <h5 class="text-bold">4° Atualizaçãocio</h5>
+            <h5 class="text-bold">4ª Atualização</h5>
             <p>
-              Texto
-            </p>
+                        </p>
           </div>
         </div>
         <div class="time-line-content__column text-right">
@@ -132,10 +129,9 @@
       <div class="time-line-content jsTabContent" data-tab="year_2005">
         <div class="time-line-content__column">
           <div class="content c-white">
-            <h5 class="text-bold">5° Atualização</h5>
+            <h5 class="text-bold">5ª Atualização</h5>
             <p>
-              Texto
-            </p>
+                        </p>
           </div>
         </div>
         <div class="time-line-content__column text-right">
@@ -146,10 +142,9 @@
       <div class="time-line-content jsTabContent" data-tab="year_2006">
         <div class="time-line-content__column">
           <div class="content c-white">
-            <h5 class="text-bold">6° Atualização</h5>
+            <h5 class="text-bold">6ª Atualização</h5>
             <p>
-              Texto
-            </p>
+                        </p>
           </div>
         </div>
         <div class="time-line-content__column text-right">

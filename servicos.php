@@ -23,7 +23,7 @@
   <div class="container">
     <div class="text-centered">
       <p class="font-secondary text-bold font-medium">
-        A Ibiapaba SP é referência no desenvolvimento de projetos de mangueiras contínuas e aspiraladas.
+        A Ibiapaba é referência no desenvolvimento de projetos de mangueiras contínuas e espiraladas.
       </p>
     </div>
     <div class="boxes spaced">
@@ -81,7 +81,7 @@
           <div class="row small">
             <p class="font-normal text-centered font-primary">
               Rerforma de equipamentos para todas as etapas de um processo de extrusão,
-              como: extrusoras, puxadores, trançadeira, túnel de aquecimento, 
+              como: extrusor, puxador, trançadeira, túnel de aquecimento, 
               cabeçote para linha de tubo, mangueira trançada, mangueira para gás e 
               ferramentas para co-extrusão, matriz e pino.
               Também Prestamos serviços de reforma e recuperação de cilindro e rosca 

@@ -239,7 +239,7 @@
             <div class="linha-producao-slide__item-content">
               <h3>Ferramental</h3>
               <p>
-                Cabeçote, Pino, Matriz e Túnel de Aquecimento
+                Cabeçote, pino, matriz, túnel de aquecimneto e outras ferramentas para extrusão.
               </p>
               <a href="/produtos?tab=ferramental#produtos" 
               class="button button-small button-dark outlined">
@@ -266,7 +266,7 @@
             <div class="linha-producao-slide__item-content">
               <h3>Puxador</h3>
               <p>
-                Puxador tipo catepilar dois braços,
+                Puxador tipo caterpillar dois braços,
                 com correias transportadoras (com guia 
                 central em canal tipo B) para 
                 mangueiras ou perfis.
