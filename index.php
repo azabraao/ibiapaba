@@ -67,7 +67,7 @@
               Máquina com a capacidade de desenvolver tranças 
               sobrepostas em mangueiras de polímeros ou elastômeros.
             </p>
-            <a href="/produtos?tab=tracadeira" 
+            <a href="/produtos?tab=trancadeira" 
             class="button button-small button-primary outlined">
               Saiba +
             </a>
