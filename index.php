@@ -52,7 +52,7 @@
               Rerforma de equipamentos para todas as 
               etapas de um processo de extrusão.
             </p>
-            <a href="" 
+            <a href="/servicos" 
             class="button button-small button-primary">
               Saiba +
             </a>
@@ -78,7 +78,7 @@
             <h2>
               Cabeçote 
             </h2>
-            <a href="" 
+            <a href="/produtos?tab=ferramental" 
             class="button button-small button-primary outlined">
               Saiba +
             </a>
@@ -92,7 +92,7 @@
             <h2>
               Mangueiras
             </h2>
-            <a href="" 
+            <a href="/mangueiras" 
             class="button button-small button-primary">
               Saiba +
             </a>
