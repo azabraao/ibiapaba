@@ -16,12 +16,14 @@
   align-items: center;
   flex-direction: column;
   padding: $half-grid-desktop;
-  transition: all .3s;
-  
+  transition: all 0.3s;
+  text-decoration: none;
+  color: $black;
+
   .box__header {
     margin-bottom: $half-grid-desktop;
   }
-  
+
   .box__body {
     text-align: center;
     font-family: $font-primary;

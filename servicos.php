@@ -27,7 +27,7 @@
       </p>
     </div>
     <div class="boxes spaced">
-      <div class="box w-medium h-unset on-hover-blue">
+      <a href="/mangueiras" class="box w-medium h-unset on-hover-blue">
         <div class="box__header ">
           <svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0)">
@@ -65,7 +65,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </a>
     </div>
     <div class="flex justify-center">
       <a href="/mangueiras" class="button button-primary button-small outlined">

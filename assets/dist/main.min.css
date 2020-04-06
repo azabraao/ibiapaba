@@ -356,7 +356,9 @@ html, body {
   align-items: center;
   flex-direction: column;
   padding: 2.34375rem;
-  transition: all .3s; }
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #000; }
   .box .box__header {
     margin-bottom: 2.34375rem; }
   .box .box__body {
