@@ -1,0 +1,35 @@
+.partners {
+  .partners__slide {
+    background: $grey-lighter;
+    padding: $half-grid-desktop 0;
+    position: relative;
+
+    .partners__slide-controls {
+      position: absolute;
+      pointer-events: none;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: $half-grid-mobile;
+  
+      .partners__slide-control {
+        pointer-events: all;  
+      }
+    }
+    .partners__slide-items {
+      .partiners__slide-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: $grid-2-desktop;
+        padding: $grid-1-mobile;
+      } 
+    }
+  } 
+}
