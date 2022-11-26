@@ -1,0 +1,57 @@
+.button {
+  border: none;
+  width: $grid-3-desktop;
+  text-align: center;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font-primary;
+  font-size: $content-medium;
+  height: 40px;
+  text-decoration: none;
+  box-shadow: $box-shadow;
+  transition: all $half-second;
+  cursor: pointer;
+}
+
+.button-small {
+  width: $grid-2-desktop;
+}
+
+.button-medium {
+  width: 200px;
+  height: 50.2px;
+}
+
+.button-primary  {
+ background: $primary;
+ color: $white; 
+}
+
+.button-primary.outlined:hover {
+  color: $white;
+  background: $primary;
+}
+
+.button-dark {
+  background: $dark;
+  color: $white;
+}
+
+.button-dark.outlined:hover {
+  background: $dark;
+  color: $white;
+}
+
+.button-dark.outlined {
+  color: $dark;
+  background: transparent;
+  border: 1px solid $dark;
+}
+
+.button-primary.outlined {
+  color: $primary;
+  background: transparent;
+  border: 1px solid $primary;
+}

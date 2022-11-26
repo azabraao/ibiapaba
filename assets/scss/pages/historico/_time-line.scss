@@ -1,0 +1,70 @@
+.time-line::before {
+  position: absolute;
+  content: '';
+  background: $white;
+  height: 3px;
+  width: 570px;
+  bottom: 9px;
+  left: 30px;
+  right: 0;
+  margin: 0 auto;
+}
+
+.time-line {
+  position: relative;
+  display: flex;
+  overflow-x: scroll;
+  
+  .time-line__year.active {
+    
+    .time-line__year-number {
+      color: $primary;
+    }
+    .time-line__ellipse {
+      border-color: $primary;
+      background: $primary;
+    }
+  }
+  
+  .time-line__year {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    position: relative;
+    min-width: 80px;
+    cursor: pointer;
+
+    .time-line__year-number {
+      color: $white;
+      font-family: $font-secondary;
+      font-size: $content-medium;
+    }
+    
+    .time-line__ellipse {
+      width: 36px;
+      height: 20px;
+      border: 2px solid $white;
+      border-radius: $radius;
+      background-color: $dark;
+    }
+  }  
+}
+
+@media only screen and (min-width: $mobile-up) {
+  .time-line::before {
+    left: 0;
+  }
+  
+  .time-line {
+    overflow-x: inherit;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: $desktop-up) {
+  .time-line::before {
+    width: 940px;
+  }
+}

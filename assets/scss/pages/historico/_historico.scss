@@ -1,0 +1,13 @@
+.historico {
+  .historico__header {
+    margin-bottom: $grid-1-mobile;
+  }
+}
+
+@media only screen and (min-width: $mobile-up) {
+  .historico {
+    .historico__header {
+      margin-bottom: $grid-1-desktop;
+    }
+  }
+}
