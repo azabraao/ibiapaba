@@ -17,40 +17,28 @@
         <div class="responsaveis__box">
           <div class="responsaveis__box-top">
             <div class="responsaveis__card">
-              <div class="responsaveis__card-top">
-                <img src="./assets/img/foto-carla-melniski.png" alt="Foto Carla Melniski">
-              </div>
               <div class="responsaveis__card-bottom">
                 <span class="responsaveis__card-title">
-                  Carla Melniski
-                </span>
-                <span class="responsaveis__card-subtitle">
-                  Lider Financeira
+                  Financeiro
                 </span>
               </div>
             </div>
           </div>
           <div class="responsaveis__box-bottom">
             <p>
-              (11) 97135-7557
+              (11) 2480-0716
             </p>
             <p>
-              carla@ibiapabasp.com.br
+              ibiapaba@ibiapabasp.com.br
             </p>
           </div>
         </div>
         <div class="responsaveis__box">
           <div class="responsaveis__box-top">
             <div class="responsaveis__card">
-              <div class="responsaveis__card-top">
-                <img src="./assets/img/foto-antonio-aglesio.png" alt="Foto Antonio Aglesio">
-              </div>
               <div class="responsaveis__card-bottom">
                 <span class="responsaveis__card-title">
-                  Antonio Aglesio
-                </span>
-                <span class="responsaveis__card-subtitle">
-                  Gerente de Produção
+                  Comercial
                 </span>
               </div>
             </div>
@@ -60,61 +48,10 @@
               (11) 95371-2045
             </p>
             <p>
-              aglesio@ibiapabasp.com.br
+              ibiapaba@ibiapabasp.com.br
             </p>
           </div>
         </div>
-        <div class="responsaveis__box">
-          <div class="responsaveis__box-top">
-            <div class="responsaveis__card">
-              <div class="responsaveis__card-top">
-                <img src="./assets/img/foto-humberto.png" alt="Foto Humberto">
-              </div>
-              <div class="responsaveis__card-bottom">
-                <span class="responsaveis__card-title">
-                  Humberto de Sousa
-                </span>
-                <span class="responsaveis__card-subtitle">
-                  Gerente Comercial
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="responsaveis__box-bottom">
-            <p>
-              (11) 99615-1212
-            </p>
-            <p>
-              ibiapabasp@ibiapabasp.com.br
-            </p>
-          </div>
-        </div>
-        <div class="responsaveis__box">
-          <div class="responsaveis__box-top">
-            <div class="responsaveis__card">
-              <div class="responsaveis__card-top">
-                <img src="./assets/img/foto-goncalves.png" alt="Foto Humberto">
-              </div>
-              <div class="responsaveis__card-bottom">
-                <span class="responsaveis__card-title">
-                  Gonçalves Dias
-                </span>
-                <span class="responsaveis__card-subtitle">
-                  CEO
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="responsaveis__box-bottom">
-            <p>
-              (11)98119-7722
-            </p>
-            <p>
-              ibiapabasp@ibiapabasp.com.br
-            </p>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
